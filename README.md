@@ -16,19 +16,25 @@
 
 # REFERENTES:
 >Hemos seleccionado los siguientes sitios que nos sirven cómo guía para la eleaboración de nuestro sitio.
->
+
 ### 1. [Huawei](https://consumer.huawei.com/ar/), [Apple](https://www.apple.com/iphone/) y [Samsung](https://www.samsung.com/ar/smartphones/).
 > Además de ser un referentes en el mercado de celulares de alta gama, nos agrada la estética de sus homepages de diseño simple. Todas tienen fondo blanco y letras negras y permiten destacar los productos que se ofrecen dando una sensación de modernidad. Además las páginas incluyen pasafotos, imágenes o videos que resaltan o promocionan sus productos más novedosos. En el caso de de Huawei y Apple  los menúes no son desplegables, dando una sensación de minimalismo que creemos que ayuda a un diseño que se muestra moderno y tecnológico y va de la mano a lo que deseamos mostrar en nuestro sitio.
+![Huawei Home](/img/huawei.jpg)
+![Apple Home](/img/apple.jpg)
+![Samsung Home](/img/samsung.jpg)
 
 ### 2. [Claro](https://miclaro.claro.com.ar)
 > Esta compañia es un referente en el mercado de telefonía móvil de Latioamérica. Destacamos la sencilles de su web de gestión de usuario y su facilidad de uso.
 ![Acceso portal de usuario](/img/claro1.jpg)
+
 ### 3. [Swappa](https://swappa.com/buy/phones)
 > Esta web está dedicada a la venta de teléfonos celulares. Nos pareció interesante la manera en que agrupa los dispositivos que ofrecen.
+![Swappa phones](/img/swappa.jpg)
 
 ### 4. [Phonesdata](https://phonesdata.com/es/)
 > Págna web dedicada a Smartphones donde se muestra un amplio catálogo de dispositivos con sus carácteristicas principales y especificaciones técnicas detalladas. Permite además comparar diferentes modelos entre sí.
+![Phonesdata Detalle](/img/phonesdata.jpg)
 
 ### 5. [Motorola](https://www.motorola.com.ar/checkout#/cart)
 > Nos basamos en esta web de ventas de smartphones para el diseño del carrito de compras.  
-
+![Motorola Carrito](/img/motorola.jpg)
