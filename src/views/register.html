@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Celltech</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/norma.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body id="body">
+    <header id="header">
+        <nav id="headerNav">
+            <img src="" id="logoCelltech" alt="Logo Celltech">
+            <form action="#" class="barraBusqueda" id="barraBusquedaForm">
+                <input type="search" id="barraBusqueda" name="barraBusqueda" placeholder="Buscar">
+                <button id="botonBarra" type="submit"><i class="fa fa-search"></i></button> 
+            </form>
+            <section >
+                <ul id="linkBar">
+                    <li><a href="">Ayuda</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="loguin.html">Register</a></li>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <main id="main-register">
+        <section id="leftBar">
+            <h2>Marcas</h2>
+            <ul>
+                <li><a href="">Samsung</a></li>
+                <li><a href="">Apple</a></li>
+                <li><a href="">Xiaomi</a></li>
+                <li><a href="">Huawei</a></li>
+                <li><a href="">Motorola</a></li>
+                <li><a href="">Lg</a></li>
+                <li><a href="">Cat</a></li>
+            </ul>
+        </section>
+        <!--Formulario de Registro-->
+        <section class="contentRegister">
+            <h1 id="pageTitleRegister">Registrate en CELLTECH</h1>
+            <form action="/registerUser" method="POST" class="formCreateUser">
+                <div class="controlForm">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" placeholder="ingresá tu nombre" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Apellido:</label>
+                    <input type="text" name="apellido" placeholder="ingresá tu apellido" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="alguien@mail.com" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Contraseña:</label>
+                    <input type="password" name="password" placeholder="ingresa tu contraseña" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Confirmá tu contraseña:</label>
+                    <input type="password" name="password" placeholder="repetí tu contraseña" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Dirección:</label>
+                    <input type="text" name="direccion" placeholder="calle y número" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Localidad:</label>
+                    <input type="text" name="localidad" placeholder="localidad" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Código Postal:</label>
+                    <input type="number" name="cp" placeholder="1000" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <button type="submit">Registrate</button>
+                </div>
+            </form>
+        </section>
+        <!--Sección para ir a iniciar sesión-->
+        <section class="content-login">
+            <h2>¿Ya estás registrado?</h2>
+            <div class="buttonLogin">
+                <button type="submit">iniciar sesión</button>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <ul id="listaSocial">
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fab fa-instagram-square"></i></li>
+            <li><i class="fab fa-linkedin"></i></li>
+            <li><i class="fab fa-skype"></i></li>
+        </ul>
+        <p>Copyright© CellTech S.R.L</p>
+    </footer>
+</body>
+</html>
