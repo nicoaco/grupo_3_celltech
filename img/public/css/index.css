@@ -107,3 +107,67 @@ text-align: center;
 .listadoModelos li{
     padding: 1vh;
 }
+@media  (max-width:480px) {
+
+#leftBar{
+    width:30vw;
+}
+#leftBar h2{
+    font-size: 25px;
+    margin-top: 22vh;
+}
+#leftBar li{
+    font-size: 15px;
+}
+#centerBar article{
+    margin-top: 15vh;
+    height: 30vh;
+    width: 60vw;
+    margin-left: 20vw;
+}
+.articulo li{
+    font-size: 15px;
+}
+.articulo section {
+    border:none
+}
+
+
+}
+@media (min-width:481px){
+    #centerBar article{
+        height: 25vh;
+        width: 25vw;
+    }
+    #leftBar{
+        width:23vw;
+    }
+    #centerBar article{
+        height: 25vh;
+        width: 35vw;
+    }
+    #centerBar section{
+        border:none;
+    }
+
+}
+
+@media (min-width:769px){
+    #centerBar article{
+        height: 25vh;
+        width: 25vw;
+    }
+    #leftBar{
+        width:20vw;
+    }
+    #leftBar h2{
+        font-size:33px;
+    }
+    #leftBar li{
+        font-size: 25px;
+    }
+    #centerBar section{
+        border-left: 1px solid grey;
+    }
+    
+}

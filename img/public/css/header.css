@@ -45,7 +45,8 @@
     border:none;
     margin:0;
     padding:0;
-    top:1px;
+    bottom:3px;
+    font-size: 12px;
 
 }
 
@@ -80,4 +81,59 @@ a:hover{
     color:rgba(122, 15, 223, 0.747);
     
     
+}
+@media (max-width:480px){
+
+
+    #barraBusquedaForm input{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    #barraBusquedaForm {
+        width: 100vw;
+    }
+    #headerNav li{
+        font-size: 16px;
+    }
+    #linkBar{
+        width:80vw;
+    }
+    #headerNav{
+        display:flex;
+        flex-wrap: wrap;
+        height: 25vh;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width:481px){
+    #headerNav li{
+        font-size: 11px;
+        padding:5px;
+    }
+    #barraBusqueda {
+        max-width: 300px;
+
+    }
+    #linkBar{
+        max-width: 300px;
+        
+    }
+}
+
+@media (min-width:769px){
+    #headerNav li{
+        font-size: 22px;
+        padding:5px;
+    }
+    #barraBusqueda {
+        max-width: 300px;
+
+    }
+    #linkBar{
+        max-width: 300px;
+        
+    }
 }
