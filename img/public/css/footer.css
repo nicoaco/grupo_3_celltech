@@ -1,0 +1,22 @@
+#footer {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 4vh;
+    height: 12vh;
+    
+}
+
+#footer ul{
+    padding-left: 4vw;
+    width: 20vw;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#footer p{
+    padding-right: 4vw;
+}
