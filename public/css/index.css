@@ -154,11 +154,11 @@ text-align: center;
 
 @media (min-width:769px){
     #centerBar article{
-        height: 25vh;
-        width: 25vw;
+        height: 300px;
+        width: 300px;
     }
     #leftBar{
-        width:25vw;
+        width:20vw;
     }
     #leftBar h2{
         font-size:33px;
@@ -180,6 +180,7 @@ text-align: center;
         border-radius: 8px;
         padding:15px;
         width:160.92px;
+        margin-bottom: 15%;
     }
     
 }
