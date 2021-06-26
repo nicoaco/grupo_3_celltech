@@ -1,15 +1,16 @@
-const express= require ('express')
-const app= express()
-const path = require ('path')
-// const router = express.router()
-// app.get('/', (req,res) =>res.send("hola mundo") )
-app.listen(3000,() =>console.log("http://localhost:3000"))
-app.use(express.static(path.resolve(__dirname,"../public")))
-console.log(__dirname)
+const express= require ('express');
+const app= express();
+const path = require ('path');
 
-app.get ("/",(req,res)=>res.sendFile(path.resolve(__dirname,"./views","index.html")))
-app.get ("/loguin",(req,res)=>res.sendFile(path.resolve(__dirname,"./views","loguin.html")))
-app.get ("/shop",(req,res)=>res.sendFile(path.resolve(__dirname,"./views","shop.html")))
+//iniciar server web
+app.listen(3000,() =>console.log("server running http://localhost:3000"));
+
+//directorio publico
+app.use(express.static(path.resolve(__dirname,"../public")));
+
+//routas para acceso web
+app.use(require("./routes/web"));
+
 
 
 
