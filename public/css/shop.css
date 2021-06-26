@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+
+}
+#lista{
+    width: 50vw;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px 0px;
+}
+ul#top-table{
+    
+    width:100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#table{
+    justify-content: right;
+
+}
+#resumen-compra{
+    height: 30vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
+   
+}
+
+#total-compra{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+   
+h2{
+    
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#shop-end{
+    background-color: snow;
+    border-radius: 10%;
+    font-weight: bold;
+    height: 5vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+    text-decoration:none;
+    color: black;
+    position: relative;
+    left: 60px;
+}
+
+#total{
+    border-top: grey solid 3px;
+}
+#subtotal{
+    margin-bottom: 20px;
+}
+#descuento{
+    margin-bottom: 20px;
+}
+#total{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+#politicas{
+    position: relative;
+    bottom: 20vh;
+}

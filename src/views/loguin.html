@@ -37,16 +37,20 @@ rel="stylesheet" />
         </nav>
     </header>
     <main>
-        <form action="/register" method="POST">
+        <form action="/register" method="POST" id="registro">
             <h2>Ingresá a CELLTECH</h2>
-            <label id="email"> Email </label>
-            <input type="email" name="mail" id="email">
-            <label id="password"></label>
-            <input type="password" name="password" id="password">
+            <p>
+            <input type="email" name="mail" placeholder="Email">
+        </p>
+        <p>
+            <input type="password" name="password" placeholder="Password">
+        </p>
            <a href="">Olvidé mi contraseña</a>
-           <button type="submit">Ingresar</button>
-           <p>¿No estas Registrado?</p>
-           <a href=""> Registrate</a>
+          
+           <button id="ingresar" type="submit">Ingresar</button>
+
+           <p id="no-registrado">¿No estas Registrado?</p>
+           <button id="registrate"><a href=""> Registrate</a></button>
             </form>
 
     </main>

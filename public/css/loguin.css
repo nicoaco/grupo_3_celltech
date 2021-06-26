@@ -1,4 +1,48 @@
-form{
-    display: flex;
-    border: solid red 1px;
+*{
+    box-sizing: border-box;
+}
+#registro{
+    width: 50vw;
+    height: 35vh;
+  box-shadow: rgba(60, 64, 67, 0.3) 5px 5px 5px 5px;
+  margin: auto;
+  
+  
+   
+}
+h2{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+    width: 50%;
+    position: relative;
+    left: 30%;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+#ingresar{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    
+}
+#registrate{
+    display: block;
+    margin: auto;
+}
+#no-registrado{
+    position: relative;
+    left: 35%;
+    margin-bottom: 5px;
+    
 }
