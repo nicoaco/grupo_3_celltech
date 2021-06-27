@@ -2,23 +2,34 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
+
+#content{
+ height: 85vh;
+ width: 100vw;
+ display: flex;
+}
+
 #registro{
-    width: 50vw;
-    height: 35vh;
-  box-shadow: rgba(60, 64, 67, 0.3) 5px 5px 5px 5px;
-  margin: auto;
-  
-  
-   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 25vh;
+    margin-left: 30vw;
+    position: relative;
+    width: 35vw;
+    height: 40vh;
+    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
 }
 h2{
     display: block;
+    padding: 10px;
     font-weight: bold;
     font-size: 1.5rem;
-    
-    width: 50%;
+    width: 100%;
     position: relative;
-    left: 30%;
+    left: 10vw;
+    
 }
 input{
     width: 100%;
@@ -35,15 +46,21 @@ a{
     display: block;
     width: 100%;
     text-decoration: none;
+    margin: auto;
     
+}
+#olvide-pass{
+    position:relative;
+    left: 12vw;
 }
 #registrate{
     display: block;
     margin: auto;
+   
 }
 #no-registrado{
     position: relative;
     left: 35%;
-    margin-bottom: 5px;
+    margin: 3vh, 0;
     
 }
