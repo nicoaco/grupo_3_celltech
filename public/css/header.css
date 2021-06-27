@@ -110,7 +110,7 @@ a:hover{
     #headerNav{
         display:flex;
         flex-wrap: wrap;
-        height: 25vh;
+        height: 200px;
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
