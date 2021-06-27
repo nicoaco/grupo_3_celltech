@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/loguin.css">
+    <link rel="stylesheet" href="css/login.css">
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
@@ -36,7 +36,8 @@ rel="stylesheet" />
             </section>
         </nav>
     </header>
-    <main>
+    <main id="content">
+       
         <form action="/register" method="POST" id="registro">
             <h2>Ingresá a CELLTECH</h2>
             <p>
@@ -45,14 +46,14 @@ rel="stylesheet" />
         <p>
             <input type="password" name="password" placeholder="Password">
         </p>
-           <a href="">Olvidé mi contraseña</a>
+           <a id="olvide-pass" href="">Olvidé mi contraseña</a>
           
            <button id="ingresar" type="submit">Ingresar</button>
 
            <p id="no-registrado">¿No estas Registrado?</p>
            <button id="registrate"><a href=""> Registrate</a></button>
             </form>
-
+        
     </main>
     <footer id="footer">
         <ul id="listaSocial">

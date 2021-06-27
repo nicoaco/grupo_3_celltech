@@ -2,14 +2,17 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
-main{
+#content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 100vh;
-    width: 100vw;
+    height: 85vh;
+    width: 90vw;
+    position: relative;
+    margin-top: 35vh;
 
 }
+
 #lista{
     width: 50vw;
     height: 30vh;
@@ -22,12 +25,15 @@ ul#top-table{
     display: flex;
     justify-content: space-around;
 }
+#top-table li{
+font-weight: bold;
+}
 #table{
     justify-content: right;
 
 }
 #resumen-compra{
-    height: 30vh;
+    height: 40vh;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
    
 }
@@ -42,39 +48,50 @@ h2{
     
     font-size: 1.5rem;
     margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold;
 }
 h3{
     font-size: 1.2rem;
     font-weight: bold;
 }
 #shop-end{
-    background-color: snow;
-    border-radius: 10%;
-    font-weight: bold;
-    height: 5vh;
+    background-color: black;
+    display: block;
+    height: 4vh;
+    width: 100%;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
     text-decoration:none;
-    color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+#shop-end i{
     position: relative;
-    left: 60px;
+    left: 18%;
+   
 }
 
 #total{
-    border-top: grey solid 3px;
+    margin-left: 20px;
+   
 }
 #subtotal{
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 #descuento{
+    padding: 20px;
     margin-bottom: 20px;
+    border-bottom: grey solid 3px;
 }
 #total{
     margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: bold;
-
 }
 #politicas{
+    margin: auto;
+    width: 90vw;
     position: relative;
-    bottom: 20vh;
+    bottom: 5vh;
 }
