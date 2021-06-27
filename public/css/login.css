@@ -23,35 +23,41 @@
 }
 h2{
     display: block;
-    padding: 10px;
+    padding: 3%;
     font-weight: bold;
-    font-size: 1.5rem;
-    width: 100%;
+    font-size: 1.2rem;
+    width: 50%;
     position: relative;
     left: 10vw;
     
 }
 input{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
+   
     
 }
 #ingresar{
     display: block;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
+    
     
 }
 a{
-    display: block;
-    width: 100%;
+    
     text-decoration: none;
-    margin: auto;
+    box-sizing: border-box;
+    
     
 }
 #olvide-pass{
+    
     position:relative;
-    left: 12vw;
+  /*  left: 12vw;*/
+    
+    height: 5vh;
+    margin: auto;
 }
 #registrate{
     display: block;
@@ -59,8 +65,35 @@ a{
    
 }
 #no-registrado{
+    margin: auto;
+    padding: 0px,20px;
+    display: block;
     position: relative;
-    left: 35%;
-    margin: 3vh, 0;
+    /*left: 35%;*/
+    margin: 5%, 0;
+    
+}
+
+@media(max-width:360px) {
+    h2{
+        font-size: .8rem;
+    }
+    #olvide-pass,#no-registrado{
+        font-size: .8rem;
+        
+    }
+   
+}
+@media(min-width:361){
+
+    h2{
+        font-size: 1rem;
+    }
+    a{
+        font-size:.4rem; 
+    }
+}
+@media(min-width:769)
+{
     
 }
