@@ -36,3 +36,6 @@
 #footer li:hover{
     transform: scale(1.8);
 }
+#listaSocial li{
+    margin:3px
+}
