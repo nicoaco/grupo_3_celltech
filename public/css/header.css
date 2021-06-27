@@ -2,10 +2,10 @@
     font-family: 'Titillium Web', sans-serif;}
 
 
-#header img{
+/* #header img{
     width: 50%;
     height: 50%;
-}
+} */
 #headerNav{
     width: 100vw;
     display:flex;
@@ -55,6 +55,7 @@
 
 #logoCelltech{
     width:20vw;
+    max-width: 106px;
 
 }
 
@@ -104,6 +105,7 @@ a:hover{
     }
     #linkBar{
         width:80vw;
+        padding-top:4vh;
     }
     #headerNav{
         display:flex;
