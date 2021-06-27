@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    }
+
+
+#main-register{
+        width: 100%;
+        margin-top: 25vh;
+        padding: 5vw;
+    }
+.contentRegister {
+    background-color: #FAFAFA;
+}
+
+#pageTitleRegister {
+    padding: 10px 10px;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+
+}
+.formCreateUser {
+    padding: 15px 15px;
+}
+
+.controlForm {
+    margin: 5px;
+    display:block;
+}
+.controlBox {
+    width: 100%;
+    padding: 8px 8px;
+}
+.buttonForm{
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+
+.content-login h2 {
+    padding: 10px 10px;
+    text-align: center;
+}
+.controlLogin{
+    padding: 10px 10px;
+    text-align: center;
+}
+.buttonLogin{
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+
+@media (min-width:481px){
+    #main-register{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10vh;
+    }
+    .contentRegister {
+        width: 70%;
+    }
+    .content-login{
+        width: 30%;
+    }
+}
+@media (min-width:769px){
+    .contentRegister {
+        max-width: 600px;
+    }
+}
