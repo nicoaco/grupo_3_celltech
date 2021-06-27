@@ -27,7 +27,7 @@
     width: 30wh;
     border-radius: 8px;
     border:none;
-    background-color: grey;
+    background-color: white;
     color:rgb(255, 255, 255);
     position:relative;
     left:.5vw;
@@ -39,7 +39,7 @@
 }
 
 #botonBarra{
-    background-color: grey;
+    background-color: white;
     position:relative;
     right: 22px;
     border:none;
@@ -53,6 +53,10 @@
 #logoCelltech{
     width:20vw;
 
+}
+
+#linkBar a{
+    color:white;
 }
 #linkBar{
     
