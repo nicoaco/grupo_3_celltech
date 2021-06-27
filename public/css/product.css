@@ -16,7 +16,7 @@
     padding: 0px 10px;
 }
 .productDetail{
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 #title-cell {
     font-size: 28px;
@@ -43,21 +43,53 @@ img {
 .phoneBrief{
     padding: 10px 10px;
 }
+.productDescription{
+    border: solid 1px black;
+    margin: 0px 10px;
+}
+
 .textComprar {
+    font-size: 28px;
     text-align: center;
     padding: 15px 0px;
+}
+.precio{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 10px;
+    color: red;
 }
 
 .buttonLogin{
     padding: 10px 0px;
 }
 .buttonForm{
-    background-color:black;
-    color: white;
-    border: none;
-    font-size: 18px;
+    /*    background-color:black; */
+   /* color: white;*/
+    /*border: none;*/
+    font-size: 28px;
     padding: 5px 10px;
     border-radius: 10%;
+    box-shadow: 0px 10px 14px -7px black;
+	background-color:black;
+	border-radius:4px;
+	border:1px solid gray;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px gray;
+}
+.buttonForm:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.buttonForm:active {
+	position:relative;
+	top:1px;
 }
 
 @media  (min-width:480px) {
@@ -69,10 +101,7 @@ img {
 
 
 @media (min-width:769px){
-    #main-product{
-        display: flex;
-    }
-    #title-cell{
+       #title-cell{
         display:none;
     }
     #title-wide {
@@ -81,8 +110,16 @@ img {
     .productDetail{
         display:flex;
         flex-direction: row;
-        width: 70%;
+    }
+    .productDescription{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     figure {
-        width: 50%;
+        width: 100%;
+    }
+    .precio{
+    }
 }
