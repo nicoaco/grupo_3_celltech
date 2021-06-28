@@ -12,7 +12,7 @@
 
 #main-product{
     width: 100vw;
-    margin-top: 25vh;
+    margin-top: 35vh;
     padding: 0px 10px;
 }
 .productDetail{
@@ -42,6 +42,7 @@ img {
 
 .phoneBrief{
     padding: 10px 10px;
+    display: none;
 }
 .productDescription{
     border: solid 1px black;
@@ -49,52 +50,54 @@ img {
 }
 
 .textComprar {
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     padding: 15px 0px;
+}
+.precio-lista{
+    font-size: 18px;
+    text-decoration: line-through ;
+    text-align: center;
+    padding: 5px 10px;
+    color: black;
+}
+.descuento{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    color: red;
 }
 .precio{
     font-size: 28px;
     text-align: center;
     padding: 10px 10px;
-    color: red;
+    color: green;
 }
 
 .buttonLogin{
     padding: 10px 0px;
 }
 .buttonForm{
-    /*    background-color:black; */
-   /* color: white;*/
-    /*border: none;*/
-    font-size: 28px;
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 18px;
     padding: 5px 10px;
-    border-radius: 10%;
-    box-shadow: 0px 10px 14px -7px black;
-	background-color:black;
-	border-radius:4px;
-	border:1px solid gray;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:28px;
-	font-weight:bold;
-	padding:6px 12px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px gray;
+    border-radius: 5%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s ease-in-out;
 }
 .buttonForm:hover {
-	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
-	background-color:#72b352;
-}
-.buttonForm:active {
-	position:relative;
-	top:1px;
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
+    transform: scale(1.05);
 }
 
 @media  (min-width:480px) {
     #main-product{
-        margin-top: 15vh;
+        margin-top: 22vh;
+    }
+    .phoneBrief{
+        display: block;
     }
    
 }
@@ -119,7 +122,5 @@ img {
     }
     figure {
         width: 100%;
-    }
-    .precio{
     }
 }
