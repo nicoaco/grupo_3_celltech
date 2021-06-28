@@ -33,6 +33,10 @@
     margin:0;
     border:0;
     text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.imageProduct:hover{
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
 }
 
 img {
@@ -45,8 +49,12 @@ img {
     display: none;
 }
 .productDescription{
-    border: solid 1px black;
     margin: 0px 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s;
+}
+.productDescription:hover {
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
 }
 
 .textComprar {
