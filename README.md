@@ -39,5 +39,5 @@
 > Nos basamos en esta web de ventas de smartphones para el diseño del carrito de compras.  
 ![Motorola Carrito](/img/motorola.jpg)
 
-#TABLERO DE TRABAJO:
-Link al tablero de [trello] (https://trello.com/b/FUkg4bV1/dh-grupo-3-celltech) .
+# TABLERO DE TRABAJO:
+> Link al tablero de [trello] (https://trello.com/b/FUkg4bV1/dh-grupo-3-celltech) .
