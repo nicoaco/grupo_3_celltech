@@ -27,6 +27,7 @@
     border-right: 2px solid rgb(0, 0, 0);
     position: fixed;
     top:10vh;
+    min-height: 675px;
     
 
     
@@ -185,5 +186,11 @@ text-align: center;
         width:160.92px;
         margin-bottom: 15%;
     }
-    
+        
+}
+@media (max-height:770px){
+    #leftBar ul {
+        box-shadow: none;
+    }
+
 }
