@@ -29,7 +29,7 @@ rel="stylesheet" />
                     <li><a href="">Ayuda</a></li>
                     <li><a href="/login">Login</a></li>
                     <li><a href="/register">Register</a></li>
-                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="/shop"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </section>
         </nav>
@@ -56,7 +56,13 @@ rel="stylesheet" />
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quam dolorem eligendi molestiae officia. Rerum dicta eveniet distinctio dolorum delectus? Cumque modi praesentium quisquam laudantium quibusdam. Earum tenetur voluptatibus animi.
                         </p>
                     </div>
-                    <h3 class="precio">LLEVALO POR $75.000,00</h3>
+                    <section class="precio-descuento">
+                        <p class="precio-lista">$75.000</p>
+                        <p class='descuento'>10% OFF</p>
+                        <p class = "precio">$67.500</p>
+                        
+                    </section>
+                    
                 </section>
             </article>
             
@@ -64,7 +70,9 @@ rel="stylesheet" />
             <section class="textComprar">
                 <h2>¿Te gusta?</h2>
                 <div class="buttonLogin">
+                    <form action="/shop" method="GET">
                     <button type="submit" class="buttonForm">Comprar</button>
+                    </form>
                 </div>
             </section>
     </section>

@@ -56,7 +56,7 @@ a{
     position:relative;
   /*  left: 12vw;*/
     
-    height: 5vh;
+    height: 3vh;
     margin: auto;
 }
 #registrate{
@@ -74,26 +74,22 @@ a{
     
 }
 
-@media(max-width:360px) {
-    h2{
+@media(max-width:480px) {
+        h2{
         font-size: .8rem;
-    }
-    #olvide-pass,#no-registrado{
+        position: relative;
+        left:2vw;
+       }
+             #olvide-pass,#no-registrado{
         font-size: .8rem;
-        
-    }
+         }
+        #registro{
+            width: 90%;
+            position: relative;
+            right: 30px;
+            top: 40px;
+            margin: 0px, 2vw;
+        }
    
 }
-@media(min-width:361){
 
-    h2{
-        font-size: 1rem;
-    }
-    a{
-        font-size:.4rem; 
-    }
-}
-@media(min-width:769)
-{
-    
-}
