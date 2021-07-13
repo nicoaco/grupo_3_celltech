@@ -1,12 +1,14 @@
 const express=require("express");
 const app = express();
-const path=require("path");
+
+
+const mainController= require("../controllers/mainController")
 
 //rutas del sitio
-app.get ("/",(req,res)=>res.sendFile(path.resolve(__dirname,"../views","index.html")));
-app.get ("/login",(req,res)=>res.sendFile(path.resolve(__dirname,"../views","login.html")));
-app.get ("/shop",(req,res)=>res.sendFile(path.resolve(__dirname,"../views","shop.html")));
-app.get ("/register", (req,res) => res.sendFile(path.resolve(__dirname,"../views","register.html")));
-app.get ("/product", (req,res) => res.sendFile(path.resolve(__dirname,"../views","product.html")));
+app.get ("/",mainController.main);
+app.get ("/login",mainController.login);
+app.get ("/shop",mainController.shop);
+app.get ("/register",mainController.register);
+app.get ("/product",mainController.product);
 
 module.exports = app;

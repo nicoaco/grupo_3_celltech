@@ -2,6 +2,7 @@ const express= require ('express');
 const app= express();
 const path = require ('path');
 
+
 //iniciar server web
 app.listen(3000,() =>console.log("server running http://localhost:3000"));
 
