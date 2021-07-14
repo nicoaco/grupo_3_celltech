@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Celltech</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/norma.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body id="body">
+    <%- include("partials/header") %>
+    <main id="main-register">
+        <!--Formulario de Registro-->
+        <section class="contentRegister">
+            <h1 id="pageTitleRegister">Registrate en CELLTECH</h1>
+            <form action="/registerUser" method="POST" class="formCreateUser">
+                <div class="controlForm">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" placeholder="ingresá tu nombre" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Apellido:</label>
+                    <input type="text" name="apellido" placeholder="ingresá tu apellido" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="alguien@mail.com" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Contraseña:</label>
+                    <input type="password" name="password" placeholder="ingresa tu contraseña" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Confirmá tu contraseña:</label>
+                    <input type="password" name="password" placeholder="repetí tu contraseña" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Dirección:</label>
+                    <input type="text" name="direccion" placeholder="calle y número" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Localidad:</label>
+                    <input type="text" name="localidad" placeholder="localidad" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Provincia:</label>
+                    <select name="provincia" class="controlBox">
+                        <option value="baires">Buenos Aires</option>
+                        <option value="caba">Capital Federal</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="chubut">Chubut</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="corrientes">Corrientes</option>
+                        <option value="entrerios">Entre Rios</option>
+                        <option value="formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="lapampa">La Pampa</option>
+                        <option value="larioja">La Rioja</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="neuquen">Neuquén</option>
+                        <option value="rionegro">Río Negro</option>
+                        <option value="salta">Salta</option>
+                        <option value="sanjuan">San Juan</option>
+                        <option value="sanluis">San Luis</option>
+                        <option value="santacruz">Santa Cruz</option>
+                        <option value="Santiagodelestero">Santiago del Estero</option>
+                        <option value="tierradelfuego">Tierra del Fuego</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+
+                </div>
+                <div class="controlForm">
+                    <label>Código Postal:</label>
+                    <input type="number" name="cp" placeholder="1000" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                    <button type="submit" class="buttonForm">Registrate</button>
+                </div>
+            </form>
+        </section>
+        <!--Sección para ir a iniciar sesión-->
+        <section class="content-login">
+            <h2>¿Ya estás registrado?</h2>
+            <div class="controlLogin">
+                <form action="/login" method="GET">
+                <button type="submit" class="buttonLogin">iniciar sesión</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <%- include("partials/footer") %>
+</body>
+</html>

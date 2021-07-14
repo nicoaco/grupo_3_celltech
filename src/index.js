@@ -1,16 +1,19 @@
 const express= require ('express');
 const app= express();
 const path = require ('path');
+const web= require("./routes/web")
 
 
 //iniciar server web
 app.listen(3000,() =>console.log("server running http://localhost:3000"));
 
 //directorio publico
-app.use(express.static(path.resolve(__dirname,"../public")));
+app.use(express.static("../public"))
 
-//routas para acceso web
-app.use(require("./routes/web"));
+//app.use(express.static(path.resolve(__dirname,"../public")));
+
+//r utas para acceso web
+app.use("/",web);
 
 
 

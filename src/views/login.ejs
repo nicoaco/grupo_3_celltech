@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Celltech</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/norma.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body id="body">
+    <%- include("partials/header") %>
+    <main id="content">
+       
+        <form action="/register" method="POST" id="registro">
+            <h2>Ingresá a CELLTECH</h2>
+            <p>
+            <input type="email" name="mail" placeholder="Email">
+        </p>
+        <p>
+            <input type="password" name="password" placeholder="Password">
+        </p>
+          <p id="olvide-pass"> <a  href="">Olvidé mi contraseña</a></p>
+          
+           <button id="ingresar" type="submit">Ingresar</button>
+
+           <p id="no-registrado">¿No estas Registrado?</p>
+           <button id="registrate"><a href=""> Registrate</a></button>
+            </form>
+        
+    </main>
+    <%- include("partials/footer") %>
+</body>
+</html>

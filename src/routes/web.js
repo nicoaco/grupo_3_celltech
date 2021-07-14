@@ -10,5 +10,7 @@ app.get ("/login",mainController.login);
 app.get ("/shop",mainController.shop);
 app.get ("/register",mainController.register);
 app.get ("/product",mainController.product);
+// seteo de EJS
+app.set("view engine", "ejs")
 
 module.exports = app;

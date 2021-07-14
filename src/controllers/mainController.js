@@ -1,10 +1,10 @@
-const path=require("path");
+//const path=require("path");
 const mainController = {
-    main:(req,res)=>res.sendFile(path.resolve(__dirname,"../views","index.html")),
-    login:(req,res)=>res.sendFile(path.resolve(__dirname,"../views","login.html")),
-    shop:(req,res)=>res.sendFile(path.resolve(__dirname,"../views","shop.html")),
-    register:(req,res) => res.sendFile(path.resolve(__dirname,"../views","register.html")),
-    product:(req,res) => res.sendFile(path.resolve(__dirname,"../views","product.html"))
+    main:(req,res)=>res.render("index"),
+    login:(req,res)=>res.render("login"),
+    shop:(req,res)=>res.render("shop"),
+    register:(req,res) => res.render("register"),
+    product:(req,res) => res.render("product")
 }
 
 module.exports= mainController
