@@ -12,8 +12,11 @@ app.use(express.static("../public"))
 
 //app.use(express.static(path.resolve(__dirname,"../public")));
 
-//r utas para acceso web
+//rutas para acceso web
 app.use("/",web);
+
+// seteo de EJS
+app.set("view engine", "ejs")
 
 
 
