@@ -24,19 +24,22 @@ rel="stylesheet" />
         <form action="/register" method="POST" id="registro">
             <h2>Ingresá a CELLTECH</h2>
             <p>
-            <input type="email" name="mail" placeholder="Email">
-        </p>
-        <p>
-            <input type="password" name="password" placeholder="Password">
-        </p>
+            <label>E-mail:</label>
+            <input type="email" name="mail" placeholder="Email" class="controlBox">
+            </p>
+            <p>
+            <label>Contraseña:</label>
+            <input type="password" name="password" placeholder="Password" class="controlBox">
+            </p>
           <p id="olvide-pass"> <a  href="">Olvidé mi contraseña</a></p>
           
            <button id="ingresar" type="submit">Ingresar</button>
 
            <p id="no-registrado">¿No estas Registrado?</p>
-           <button id="registrate"><a href=""> Registrate</a></button>
+           <form action="/login" method="GET">
+           <button type="submit" id="registrate"> Registrate</button>
             </form>
-        
+        </form>
     </main>
     <%- include("partials/footer") %>
 </body>

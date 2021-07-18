@@ -18,6 +18,7 @@
     }
 .contentRegister {
     background-color: #FAFAFA;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
 }
 
 #pageTitleRegister {
