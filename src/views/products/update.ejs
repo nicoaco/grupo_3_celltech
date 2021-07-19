@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head-->
+
+<%- include("../partials/head") %>
+
+<!-- end head -->
+
+<body id="body">
+
+    <!-- header-->
+    <%- include("../partials/header") %>
+
+    <!-- end header -->
+
+     <main id="content">
+
+        <h1>Editar producto</h1>
+
+        <form action="#" method="POST" id="formCreate">
+            
+            <label>Producto:</label>
+            <p>
+            <input class="noCheck" type="text" name="name" placeholder="Nombre del producto">
+            </p>
+           
+            <label>Marca:</label>
+            <p>
+            <input class="noCheck" type="text" name="brand" placeholder="Marca">
+           </p>
+            
+            <label>Precio:</label>
+            <p>
+            <input class="noCheck" type="number" name="price" placeholder="Precio">
+           </p>
+           <label> Imagenes:</label>
+           <p>
+           <input  class="noCheck" type="file" name="img" placeholder="Precio">
+           </p>
+
+           <p>
+            <label class="check">Sistema Operativo:</label>
+            <p>
+            <label> iOS </label> <input class="circle" type="radio" name="so" value="ios">
+            <label> Android </label>  <input class="circle" type="radio" name="so" value="android">
+            <label> Winddows </label> <input class="circle" type="radio" name="so" value="windows">
+        </p>
+           </p>
+           <p>
+            <label class="check">Procesadores:</label>
+            <p>
+            <label> 1 nucleo </label> <input class="circle" type="radio" name="core" value="1">
+            <label> 2 nucleos </label>  <input class="circle" type="radio" name="core" value="2">
+            <label> 4 nucleos </label> <input class="circle" type="radio" name="core" value="4">
+            <label> 6 nucleos </label>  <input class="circle" type="radio" name="core" value="6">
+            <label> 8 nucleos </label> <input class="circle" type="radio" name="core" value="8">
+        </p>
+            </p>
+            <p>
+                <label class="check">Memoria RAM:</label>
+                <p>
+                 <label> 1GB </label> <input class="circle" type="radio" name="memory" value="1">
+                 <label> 2GB </label>  <input class="circle" type="radio" name="memory" value="2">
+                 <label> 3GB </label> <input class="circle" type="radio" name="memory" value="3">
+                 <label> 4GB </label>  <input class="circle" type="radio" name="memory" value="4">
+                 <label> 6GB </label> <input class="circle" type="radio" name="memory" value="6">
+                </p>
+                 </p>
+
+                 <p>
+                    <label>Camara:</label>
+            <input class="noCheck" type="number" name="brand" placeholder="Megapixeles">
+                 </p>
+
+
+
+
+            
+            <label>Descripcion:</label>
+            <p>
+            <textarea class="noCheck" type="text" name="description" placeholder="Descripcion"> </textarea>
+            </p>
+        <p>
+            <input  type="submit" value="Actualizar" class="buttonForm">
+        </p>
+        </form>
+        
+       
+
+    </main>
+
+     <!-- footer -->
+    <%- include("../partials/footer") %>
+    
+    <!-- end footer-->
+</body>
+</html>
