@@ -8,6 +8,8 @@ router.get ("/login",mainController.login);
 router.get ("/shop",mainController.shop);
 router.get ("/register",mainController.register);
 router.get ("/product",mainController.product);
+router.get ("/create",mainController.create);
+router.get ("/edit",mainController.edit);
 
 
 module.exports = router;
