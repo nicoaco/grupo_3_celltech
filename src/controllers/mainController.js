@@ -9,4 +9,4 @@ const mainController = {
     edit:(req,res) => res.render("./products/update",{estilo:"edit.css", titulo:"Celltech - Edit"})
 }
 
-module.exports= mainController
+module.exports= mainController;

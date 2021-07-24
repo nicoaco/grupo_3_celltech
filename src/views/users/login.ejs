@@ -1,46 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- <head>
-    <title>Celltech</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/norma.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head> -->
 <%- include("../partials/head") %>
 <body id="body">
     <%- include("../partials/header") %>
     <main id="content">
-       
-        <form action="/register" method="POST" id="registro">
-            <h2>Ingresá a CELLTECH</h2>
-            <p>
-            <label>E-mail:</label>
-            <input type="email" name="mail" placeholder="Email" class="controlBox">
-            </p>
-            <p>
-            <label>Contraseña:</label>
-            <input type="password" name="password" placeholder="Password" class="controlBox">
-            </p>
-          <p id="olvide-pass"> <a  href="">Olvidé mi contraseña</a></p>
-          
-           <button id="ingresar" type="submit">Ingresar</button>
-
-           <p id="no-registrado">¿No estas Registrado?</p>
-           <form action="/login" method="GET">
-           <button type="submit" id="registrate"> Registrate</button>
+        <section class="contentLogin">
+            <h1 id="pageTitleLogin">Ingresá a CELLTECH</h1>
+            <section>
+            <form action="/login" method="POST" id="formLogin">
+                <div class="controlForm">
+                <label>E-mail:</label>
+                <input type="email" name="mail" placeholder="Email" class="controlBox"></input>
+                </div>
+                <div class="controlForm">
+                <label>Contraseña:</label>
+                <input type="password" name="password" placeholder="Password" class="controlBox"></input>
+                </div>       
+                <div class="controlForm">
+                <h4 class="text-login"> <a  href="#">Olvidé mi contraseña</a></h4>
+                <button type="submit" class="registrate">iniciar sesión</button>
+                </div>
             </form>
-        </form>
+            </section>
+            <section>
+                <h4 class="text-login">¿No estas Registrado?</h4>
+                <div class="controlRegister">
+                <form action="/login" method="GET">
+                <button type="submit" class="registrate">Registrate</button>
+                </form>
+                </div>
+        </section>
+        </section>
     </main>
     <%- include("../partials/footer") %>
 </body>

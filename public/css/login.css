@@ -3,25 +3,47 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-#content{
- height: 85vh;
- width: 100vw;
- display: flex;
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
-#registro{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-top: 25vh;
-    margin-left: 30vw;
-    position: relative;
-    width: 35vw;
-    height: 50vh;
-    padding: 15px 15px;
+#content {
+     width: 100%;
+     margin-top: 30vh;
+     padding: 5vw;
+   }
+
+.contentLogin {
     background-color: #FAFAFA;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
 }
+
+#pageTitleLogin {
+    padding: 10px 10px;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+}
+
+#formLogin {
+    padding: 15px 15px;
+}
+
+.controlForm {
+    margin: 5px;
+    display:block;
+}
+
+.controlBox {
+    width: 100%;
+    padding: 8px 8px;
+}
+
+
+
 h2{
     display: block;
     padding: 10px 10px;
@@ -31,49 +53,25 @@ h2{
     left: 10vw;
     
 }
-.controlBox {
-    width: 100%;
-    padding: 8px 8px;
-}
 
-input{
-    width: 100%;
-    margin-bottom: 5%;
-   
-    
-}
-#ingresar{
-    display: block;
-    margin: auto;
-    margin-bottom: 3%;
-    background-color:black;
-    color: white;
-    border: none;
-    font-size: 18px;
-    padding: 5px 10px;
-    border-radius: 5%;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    transition: all 0.5s ease-in-out;   
-}
-#ingresar:hover{
-    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
-    transform: scale(1.05);
-}
-a{
+.text-login a{
     text-decoration: none;
     box-sizing: border-box;
     
     
 }
-#olvide-pass{
+
+
     
-    position:relative;
-  /*  left: 12vw;*/
     
-    height: 3vh;
+    
+.text-login{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
     margin: auto;
 }
-#registrate{
+.registrate{
     color: white;
     display: block;
     margin: auto;
@@ -86,22 +84,18 @@ a{
     transition: all 0.5s ease-in-out;  
 }
 
-#registrate:hover{
+.registrate:hover{
     box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
     transform: scale(1.05);
 }
 
-#no-registrado{
-    margin: auto;
-    padding: 0px,20px;
-    display: block;
-    position: relative;
-    /*left: 35%;*/
-    margin: 5%, 0;
-    
+.controlRegister{
+    padding: 10px 10px;
+    text-align: center;
 }
 
-@media(max-width:480px) {
+
+@media(max-width:481px) {
         h2{
         font-size: .8rem;
         position: relative;
@@ -120,3 +114,6 @@ a{
    
 }
 
+@media (max-width:769px) {
+    
+}
