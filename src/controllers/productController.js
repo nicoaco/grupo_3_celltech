@@ -112,11 +112,11 @@ let movil8 = {
 
 let catalogo = [movil1, movil2, movil3, movil4, movil5, movil6, movil7,movil8]; 
 
-
+const productoModelo= require("../models/producto");
 
 const productController = {
-    product:(req,res) => res.render("./products/product",{ moviles: catalogo ,estilo:"product.css", titulo:"Celltech - Producto"}),
-    detail: (req,res) => res.render("./products/detail",{movil: (req.params.id <= catalogo.length) ?  catalogo[req.params.id-1] : [] ,estilo:"detail.css", titulo:"Celltech - Producto"})
+    product:(req,res) => res.render("./products/product",{ moviles: productoModelo.todos() ,estilo:"product.css", titulo:"Celltech - Producto"}),
+    detail: (req,res) => res.render("./products/detail",{movil: productoModelo.buscar("id", req.params.id) ,estilo:"detail.css", titulo:"Celltech - Producto"})
     //detail: (req,res) => res.render("./products/detail",{movil : catalogo.forEach( (elem) => elem.id == req.params.id ) ,estilo:"product.css", titulo:"Celltech - Producto"})
 }
 

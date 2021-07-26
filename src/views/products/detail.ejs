@@ -8,6 +8,10 @@
     <main id="main-product">
         <!--Sección Producto-->
         <section class = "section-content">
+            <% if (movil) { %>
+         
+
+                
                 <h1> <%= movil.nombre %>  </h1>
                 <article class="article-setting">
                     <figure><img src="/img/smartphone<%= movil.id %>.jpg" alt="smartphone<%= movil.id %>"></figure> 
@@ -27,7 +31,10 @@
                         </section>
                     </section>
                 </article>
-                
+                <% } else { %>
+                 <h1>No se encontró el producto</h1>
+                 <a href="/product" >Volver</a>
+            <% } %>
         </section>    
              <!--Sección Boton Comprar-->
             <section class="textComprar">
