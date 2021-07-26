@@ -2,6 +2,7 @@ const express= require ('express');
 const app= express();
 const path = require ('path');
 const router= require("./routes/web")
+const productRoutes = require("./routes/productRoutes");
 
 
 //iniciar server web
@@ -14,6 +15,7 @@ app.use(express.static("../public"))
 
 //rutas para acceso web
 app.use("/",router);
+app.use("/product", productRoutes);
 
 // seteo de EJS
 app.set("view engine", "ejs")

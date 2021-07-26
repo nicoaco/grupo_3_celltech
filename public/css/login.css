@@ -96,7 +96,12 @@ h2{
 
 
 @media(max-width:481px) {
-        h2{
+        
+    .contentLogin {
+        width: 70%;
+    }
+    
+    h2{
         font-size: .8rem;
         position: relative;
         left:2vw;
@@ -115,5 +120,7 @@ h2{
 }
 
 @media (max-width:769px) {
-    
+    .contentLogin {
+        max-width: 600px;
+    }
 }
