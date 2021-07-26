@@ -4,105 +4,25 @@
 <body id="body">
     <%- include("../partials/header") %>
     <main id="main-product">
-        <!--Sección Productos Brand = Samsung-->
-        
             <section class = "section-content">
-            <article class="article-setting">
+                <h1>Nuestros Modelos</h1>
+                <% for( let i = 0; i < moviles.length; i++ ) { %>
+                    <article class="article-setting">
+                        <figure><img src="/img/smartphone<%= moviles[i].id %>.jpg" alt="smartphone<%= moviles[i].id %>"></figure> 
+                        <section class="contenedor1">
+                            <section class="precio-descuento">                    
+                                <p class="precio-lista">$<%= moviles[i].precioLista %> </p>
+                                <p class='descuento'> <%= moviles[i].descuento %>  % OFF</p>
+                                <p class = "precio">$<%= moviles[i].precioFinal %> </p>
+                            </section>
+                            <h3 class="article-title"> <%= moviles[i].nombre %> </h3>
+                            <section>
+                                <p class="article-description"> <%= moviles[i].description %>  </p>
+                            </section>
+                        </section>
+                    </article>
+                <% } %>
                 
-                <figure><img src="/img/samgalnotplus01.jpg" alt="samgalnotplus01"></figure> 
-                <section class="contenedor1">
-                    <section class="precio-descuento">                    
-                            <p class="precio-lista">$75.000</p>
-                            <p class='descuento'>10% OFF</p>
-                            <p class = "precio">$67.500</p>
-                    </section>
-                    <h3 class="article-title">Galaxy Note 10+</h3>
-                    <section>
-                        <p class="article-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate eum eos adipisci voluptatem fugit nesciunt perferendis temporibus repudiandae tempora odio labore soluta impedit modi aperiam sed illum tempore atque.</p>
-                    </section>
-                </section>
-            </article>
-
-            <article class="article-setting">
-                
-                <figure><img src="/img/samgalnotplus01.jpg" alt="samgalnotplus01"></figure> 
-                <section class="contenedor1">
-                    <section class="precio-descuento">                    
-                            <p class="precio-lista">$75.000</p>
-                            <p class='descuento'>10% OFF</p>
-                            <p class = "precio">$67.500</p>
-                    </section>
-                    <h3 class="article-title">Galaxy Note 10+</h3>
-                    <section>
-                        <p class="article-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate eum eos adipisci voluptatem fugit nesciunt perferendis temporibus repudiandae tempora odio labore soluta impedit modi aperiam sed illum tempore atque.</p>
-                    </section>
-                </section>
-            </article>
-
-            <article class="article-setting">
-                
-                <figure><img src="/img/samgalnotplus01.jpg" alt="samgalnotplus01"></figure> 
-                <section class="contenedor1">
-                    <section class="precio-descuento">                    
-                            <p class="precio-lista">$75.000</p>
-                            <p class='descuento'>10% OFF</p>
-                            <p class = "precio">$67.500</p>
-                    </section>
-                    <h3 class="article-title">Galaxy Note 10+</h3>
-                    <section>
-                        <p class="article-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate eum eos adipisci voluptatem fugit nesciunt perferendis temporibus repudiandae tempora odio labore soluta impedit modi aperiam sed illum tempore atque.</p>
-                    </section>
-                </section>
-            </article>
-
-            <article class="article-setting">
-                
-                <figure><img src="/img/samgalnotplus01.jpg" alt="samgalnotplus01"></figure> 
-                <section class="contenedor1">
-                    <section class="precio-descuento">                    
-                            <p class="precio-lista">$75.000</p>
-                            <p class='descuento'>10% OFF</p>
-                            <p class = "precio">$67.500</p>
-                    </section>
-                    <h3 class="article-title">Galaxy Note 10+</h3>
-                    <section>
-                        <p class="article-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate eum eos adipisci voluptatem fugit nesciunt perferendis temporibus repudiandae tempora odio labore soluta impedit modi aperiam sed illum tempore atque.</p>
-                    </section>
-                </section>
-            </article>
-
-            <article class="article-setting">
-                
-                <figure><img src="/img/samgalnotplus01.jpg" alt="samgalnotplus01"></figure> 
-                <section class="contenedor1">
-                    <section class="precio-descuento">                    
-                            <p class="precio-lista">$75.000</p>
-                            <p class='descuento'>10% OFF</p>
-                            <p class = "precio">$67.500</p>
-                    </section>
-                    <h3 class="article-title">Galaxy Note 10+</h3>
-                    <section>
-                        <p class="article-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate eum eos adipisci voluptatem fugit nesciunt perferendis temporibus repudiandae tempora odio labore soluta impedit modi aperiam sed illum tempore atque.</p>
-                    </section>
-                </section>
-            </article>
-
-            <article class="article-setting">
-                
-                <figure><img src="/img/samgalnotplus01.jpg" alt="samgalnotplus01"></figure> 
-                <section class="contenedor1">
-                    <section class="precio-descuento">                    
-                            <p class="precio-lista">$75.000</p>
-                            <p class='descuento'>10% OFF</p>
-                            <p class = "precio">$67.500</p>
-                    </section>
-                    <h3 class="article-title">Galaxy Note 10+</h3>
-                    <section>
-                        <p class="article-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cupiditate eum eos adipisci voluptatem fugit nesciunt perferendis temporibus repudiandae tempora odio labore soluta impedit modi aperiam sed illum tempore atque.</p>
-                    </section>
-                </section>
-            </article>
-
             </section>
     
     </main>
