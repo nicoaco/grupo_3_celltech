@@ -15,6 +15,76 @@
     margin-top: 35vh;
     padding: 0px 10px;
 }
+
+h1 {
+    font-size: 30px;
+    line-height: 38px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+article{
+    padding: 10px 0;
+    background-color: #FAFAFA;
+    width: 300px;
+}
+
+figure{
+    margin:0;
+    border:0;
+}
+img {
+    width: 100%;
+    }
+
+.contenedor1 {
+    margin:0;
+    border-top: solid 1px #ebebeb;
+    padding: 0 15px;
+    background-color: white;
+    position: relative;
+}
+
+.precio-descuento {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.descuento{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px 10px;
+    color: red;
+    width: 50%;
+}
+.precio-lista{
+    font-size: 18px;
+    text-decoration: line-through ;
+    text-align: right;
+    padding: 5px 10px;
+    color: black;
+    width:50%;
+}
+
+.precio{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 10px;
+    color: green;
+}
+
+.article-title {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.article-description {
+    display: none;
+}
 .productDetail{
     padding: 10px 10px;
 }
@@ -63,25 +133,9 @@ img {
     text-align: center;
     padding: 15px 0px;
 }
-.precio-lista{
-    font-size: 18px;
-    text-decoration: line-through ;
-    text-align: center;
-    padding: 5px 10px;
-    color: black;
-}
-.descuento{
-    font-size: 20px;
-    text-align: center;
-    padding: 5px 10px;
-    color: red;
-}
-.precio{
-    font-size: 28px;
-    text-align: center;
-    padding: 10px 10px;
-    color: green;
-}
+
+
+
 
 .buttonLogin{
     padding: 10px 0px;
@@ -108,7 +162,11 @@ img {
     .phoneBrief{
         display: block;
     }
-   
+    .section-content {
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
 
 
