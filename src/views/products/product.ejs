@@ -4,26 +4,26 @@
 <body id="body">
     <%- include("../partials/header") %>
     <main id="main-product">
-            <section class = "section-content">
-                <h1>Nuestros Modelos</h1>
-                <% for( let i = 0; i < moviles.length; i++ ) { %>
-                    <article class="article-setting">
-                        <figure><img src="/img/smartphone<%= moviles[i].id %>.jpg" alt="smartphone<%= moviles[i].id %>"></figure> 
-                        <section class="contenedor1">
-                            <section class="precio-descuento">                    
-                                <p class="precio-lista">$<%= moviles[i].precioLista %> </p>
-                                <p class='descuento'> <%= moviles[i].descuento %>  % OFF</p>
-                                <p class = "precio">$<%= moviles[i].precioFinal %> </p>
-                            </section>
-                            <h3 class="article-title"> <%= moviles[i].nombre %> </h3>
-                            <section>
-                                <p class="article-description"> <%= moviles[i].description %>  </p>
-                            </section>
+        <section class = "section-content">
+            <h1>Nuestros Modelos</h1>
+            <% for( let i = 0; i < moviles.length; i++ ) { %>
+                <article class="article-setting">
+                    <figure><img src="/img/smartphone<%= moviles[i].id %>.jpg" alt="smartphone<%= moviles[i].id %>"></figure> 
+                    <section class="contenedor1">
+                        <section class="precio-descuento">                    
+                            <p class="precio-lista">$<%= moviles[i].precioLista %> </p>
+                            <p class='descuento'> <%= moviles[i].descuento %>  % OFF</p>
+                            <p class = "precio">$<%= moviles[i].precioFinal %> </p>
                         </section>
-                    </article>
-                <% } %>
+                        <h3 class="article-title"> <%= moviles[i].nombre %> </h3>
+                        <section>
+                            <p class="article-description"> <%= moviles[i].descrip %>  </p>
+                        </section>
+                    </section>
+                </article>
+            <% } %>
                 
-            </section>
+        </section>
     
     </main>
     <%- include("../partials/footer") %>

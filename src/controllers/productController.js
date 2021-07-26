@@ -14,7 +14,7 @@ let movil1 = {
 
 let movil2 = {
     id: 2,
-    nombre: "Galaxy Note 10+" ,
+    nombre: "Galaxy Z" ,
     marca: "samsung",
     os: "android",
     core: 8,
@@ -28,7 +28,7 @@ let movil2 = {
 
 let movil3 = {
     id: 3,
-    nombre: "Galaxy Note 10+" ,
+    nombre: "S20" ,
     marca: "samsung",
     os: "android",
     core: 8,
@@ -42,7 +42,7 @@ let movil3 = {
 
 let movil4 = {
     id: 4,
-    nombre: "Galaxy Note 10+" ,
+    nombre: "A32" ,
     marca: "samsung",
     os: "android",
     core: 8,
@@ -56,7 +56,7 @@ let movil4 = {
 
 let movil5 = {
     id: 5,
-    nombre: "Apple XS" ,
+    nombre: "Iphne XR" ,
     marca: "apple",
     os: "ios",
     core: 8,
@@ -70,7 +70,7 @@ let movil5 = {
 
 let movil6 = {
     id: 6,
-    nombre: "Apple XS" ,
+    nombre: "Iphone 11" ,
     marca: "apple",
     os: "ios",
     core: 8,
@@ -84,7 +84,7 @@ let movil6 = {
 
 let movil7 = {
     id: 7,
-    nombre: "Apple XS" ,
+    nombre: "Iphone 12" ,
     marca: "apple",
     os: "ios",
     core: 8,
@@ -98,7 +98,7 @@ let movil7 = {
 
 let movil8 = {
     id: 8,
-    nombre: "Apple XS" ,
+    nombre: "Iphone 12 Pro" ,
     marca: "apple",
     os: "ios",
     core: 8,
@@ -115,8 +115,9 @@ let catalogo = [movil1, movil2, movil3, movil4, movil5, movil6, movil7,movil8];
 
 
 const productController = {
-    product:(req,res) => res.render("./products/product",{ moviles: [movil1, movil5] ,estilo:"product.css", titulo:"Celltech - Producto"}),
-    detail: (req,res) => res.render("./products/detail",{estilo:"product.css", titulo:"Celltech - Producto"})
+    product:(req,res) => res.render("./products/product",{ moviles: catalogo ,estilo:"product.css", titulo:"Celltech - Producto"}),
+    detail: (req,res) => res.render("./products/detail",{movil: (req.params.id <= catalogo.length) ?  catalogo[req.params.id-1] : [] ,estilo:"detail.css", titulo:"Celltech - Producto"})
+    //detail: (req,res) => res.render("./products/detail",{movil : catalogo.forEach( (elem) => elem.id == req.params.id ) ,estilo:"product.css", titulo:"Celltech - Producto"})
 }
 
 module.exports= productController;

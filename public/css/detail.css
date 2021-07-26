@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+#body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+
+#main-product{
+    width: 100vw;
+    margin-top: 35vh;
+    padding: 0px 10px;
+}
+.productDetail{
+    padding: 10px 10px;
+}
+#title-cell {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 10px;
+}
+#title-wide {
+    display:none;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.imageProduct {
+    margin:0;
+    border:0;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s;
+}
+.imageProduct:hover{
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
+}
+
+img {
+    width: 60%;
+    margin:auto;
+}
+
+.phoneBrief{
+    padding: 10px 10px;
+    display: none;
+}
+.productDescription{
+    margin: 0px 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s;
+}
+.productDescription:hover {
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
+}
+
+.textComprar {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.precio-lista{
+    font-size: 18px;
+    text-decoration: line-through ;
+    text-align: center;
+    padding: 5px 10px;
+    color: black;
+}
+.descuento{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    color: red;
+}
+.precio{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 10px;
+    color: green;
+}
+
+.buttonLogin{
+    padding: 10px 0px;
+}
+.buttonForm{
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s ease-in-out;
+}
+.buttonForm:hover {
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
+    transform: scale(1.05);
+}
+
+@media  (min-width:480px) {
+    #main-product{
+        margin-top: 22vh;
+    }
+    .phoneBrief{
+        display: block;
+    }
+   
+}
+
+
+@media (min-width:769px){
+       #title-cell{
+        display:none;
+    }
+    #title-wide {
+        display:block;
+    }
+    .productDetail{
+        display:flex;
+        flex-direction: row;
+    }
+    .productDescription{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    figure {
+        width: 100%;
+    }
+}
