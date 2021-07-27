@@ -28,14 +28,18 @@ article{
     padding: 10px 0;
     background-color: #FAFAFA;
     width: 300px;
+    padding: 10px 10px;
 }
 
 figure{
-    margin:0;
+    margin:10px;
     border:0;
+    height: 300px;
 }
 img {
     width: 100%;
+    margin: auto;
+   
     }
 
 .contenedor1 {
@@ -88,17 +92,7 @@ img {
 .productDetail{
     padding: 10px 10px;
 }
-#title-cell {
-    font-size: 28px;
-    text-align: center;
-    padding: 10px 10px;
-}
-#title-wide {
-    display:none;
-    font-size: 28px;
-    text-align: center;
-    padding: 10px 10px;
-}
+
 .imageProduct {
     margin:0;
     border:0;
@@ -110,10 +104,10 @@ img {
     box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
 }
 
-img {
+/*img {
     width: 60%;
     margin:auto;
-}
+}*/
 
 .phoneBrief{
     padding: 10px 10px;
