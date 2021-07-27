@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-//const os = require("./os.js");
+
 
 module.exports = {
         ruta : path.resolve(__dirname, "../data/", "marcas.json"),

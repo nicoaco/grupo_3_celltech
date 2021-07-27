@@ -9,7 +9,7 @@ const productRoutes = require("./routes/productRoutes");
 app.listen(3000,() =>console.log("server running http://localhost:3000"));
 
 //directorio publico
-app.use(express.static("../public"))
+app.use(express.static("public"))
 
 //app.use(express.static(path.resolve(__dirname,"../public")));
 

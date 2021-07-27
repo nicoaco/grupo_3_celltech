@@ -11,7 +11,7 @@ module.exports = {
     todos : function () {
         return JSON.parse(this.leer());
     },
-    buscar : function(atributo, valor) {
+    buscar : function(atributo,valor) {
         return this.todos().find(producto => producto[atributo] == valor); // find devuelve null si no encuentra nada.
     },
     filtrar : function(atributo, valor) {
