@@ -1,10 +1,11 @@
 const path = require("path");
 const fs = require("fs");
+//const marca = require("./marca");
 
 module.exports = {
     ruta : path.resolve(__dirname, "../data", "productos.json"),
     leer : function () {
-        // console.log("ruta", this.ruta); Devuelve la ruta del archivo JSON.
+        // console.log("ruta", this.ruta); Devuelve la ruta del archivo JSON en caso de querer debugguear.
         return fs.readFileSync(this.ruta);
     },
     todos : function () {
