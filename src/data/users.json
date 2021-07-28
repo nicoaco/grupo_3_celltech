@@ -1,0 +1,14 @@
+[{
+    "id" : 1,
+    "nombre": "Nicolás" ,
+    "apellido":"Acosta",
+    "email": "nicolas@celltech.com.ar",
+    "password": "1234",
+    "direccion": "SiempreViva 123",
+    "localidad": "cordoba",
+    "provincia": "cordoba",
+    "cp": 5000,
+    "fechaNacimiento": 19870410,
+    "isDmin": true 
+}
+]

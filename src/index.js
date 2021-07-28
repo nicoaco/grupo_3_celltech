@@ -4,7 +4,7 @@ const path = require ('path');
 const methodOverride =require("method-override");
 const router= require("./routes/web")
 const productRoutes = require("./routes/productRoutes");
-
+const userRoutes = require("./routes/userRoutes");
 
 //iniciar server web
 app.listen(3000,() =>console.log("server running http://localhost:3000"));
@@ -19,6 +19,7 @@ app.use(methodOverride("_method"));
 //rutas para acceso web
 app.use("/",router);
 app.use("/product", productRoutes);
+app.use("/user", userRoutes);
 
 
 
