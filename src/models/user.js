@@ -57,6 +57,7 @@ module.exports = {
             return element
         })
         fs.writeFileSync(this.ruta, JSON.stringify(all,null,2));
+        return all;
     },
     delete: function(id){
         let all= this.todos();

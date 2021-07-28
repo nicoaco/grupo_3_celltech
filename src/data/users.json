@@ -1,16 +1,12 @@
 [
   {
     "id": 1,
-    "nombre": "Jaime",
-    "apellido": "Lanister",
-    "email": "jlanister@casterlyrock.com",
-    "password": [
-      "muchooro",
-      "muchooro"
-    ],
-    "direccion": "Torre 5",
-    "localidad": "Roca Casterly",
-    "provincia": "baires",
+    "nombre": "Nicolas",
+    "apellido": "Acosta",
+    "email": "nicoaco@celltech.com",
+    "direccion": "Siempre Viva",
+    "localidad": "Cordoba",
+    "provincia": "cordoba",
     "cp": "1000",
     "nacimiento": "2021-07-14",
     "isAdmin": false
@@ -61,6 +57,22 @@
     "provincia": "baires",
     "cp": "1000",
     "nacimiento": "2021-07-14",
+    "isAdmin": false
+  },
+  {
+    "id": 5,
+    "nombre": "Gabi",
+    "apellido": "Cufre",
+    "email": "gcufre@cosas.com",
+    "password": [
+      "1234",
+      "1234"
+    ],
+    "direccion": "Laroro 7845",
+    "localidad": "Huidobro",
+    "provincia": "cordoba",
+    "cp": "5008",
+    "nacimiento": "1989-05-20",
     "isAdmin": false
   }
 ]

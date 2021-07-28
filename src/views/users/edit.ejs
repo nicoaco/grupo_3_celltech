@@ -3,13 +3,78 @@
 <%- include("../partials/head") %>
 <body id="body">
     <%- include("../partials/header") %>
-    <main id="content">
-        <section class="contentLogin">
+    <main id="main-register">
+        <section class="contentRegister">
             <h1 id="pageTitleLogin"> Editando Usuario <%= user.id %> : <%= user.nombre %> <%= user.apellido %>  </h1>
         </br>
             <section>
                 <%= JSON.stringify(user,null,2) %> 
             </section>
+            <form action="/user/<%= user.id%>/edit?_method=PUT " method="POST" class="formCreateUser">
+                <fieldset class="controlForm">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" value= <%= user.nombre%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>Apellido:</label>
+                    <input type="text" name="apellido" value= <%= user.apellido%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>E-mail:</label>
+                    <input type="email" name="email" value= <%= user.email%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>Dirección:</label>
+                    <input type="text" name="direccion" value= <%= user.direccion%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>Localidad:</label>
+                    <input type="text" name="localidad" value= <%= user.localidad%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>Provincia:</label>
+                    <select name="provincia" class="controlBox" value = "Córdoba" >
+                        <option value="baires">Buenos Aires</option>
+                        <option value="caba">Capital Federal</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="chubut">Chubut</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="corrientes">Corrientes</option>
+                        <option value="entrerios">Entre Rios</option>
+                        <option value="formosa">Formosa</option>
+                        <option value="Jujuy">Jujuy</option>
+                        <option value="lapampa">La Pampa</option>
+                        <option value="larioja">La Rioja</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="neuquen">Neuquén</option>
+                        <option value="rionegro">Río Negro</option>
+                        <option value="salta">Salta</option>
+                        <option value="sanjuan">San Juan</option>
+                        <option value="sanluis">San Luis</option>
+                        <option value="santacruz">Santa Cruz</option>
+                        <option value="Santiagodelestero">Santiago del Estero</option>
+                        <option value="tierradelfuego">Tierra del Fuego</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>Código Postal:</label>
+                    <input type="number" name="cp" value= <%= user.cp%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" value= <%= user.nacimiento%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <button type="submit" class="buttonForm">Actualizar Usuario</button>
+                </fieldset>
+            </form>
+
+
+
             </br>
             <form method="POST" action="/user/<%=user.id%>/delete?_method=DELETE">
                     <button type="submit">ELIMINAR USUARIO</button>
