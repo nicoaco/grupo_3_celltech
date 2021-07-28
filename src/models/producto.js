@@ -47,7 +47,7 @@ module.exports = {
         id : all.length>0 ? all[all.length -1].id +1 : 1,
         nombre:data.name ,
         marca:data.brand,
-        os: data.os,
+        so: data.so,
         core: data.core,
         memory: data.memory,
         mpx: data.mpx,

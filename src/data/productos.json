@@ -41,5 +41,29 @@
     "descrip": " ",
     "descuento": null,
     "precioFinal": null
+  },
+  {
+    "id": 14,
+    "nombre": "hola",
+    "marca": [
+      "prueba",
+      "2"
+    ],
+    "memory": "2",
+    "descrip": " prueba",
+    "descuento": null,
+    "precioFinal": null
+  },
+  {
+    "id": 15,
+    "nombre": "nombre",
+    "marca": [
+      "marca",
+      "2"
+    ],
+    "memory": "2",
+    "descrip": "prueba ",
+    "descuento": null,
+    "precioFinal": null
   }
 ]
