@@ -16,7 +16,7 @@
 
      <main id="content">
         <h1>Editar producto </h1>
-        <form action="#" method="POST" id="formCreate">
+        <form action="/product/<%= product.id %>?_method=PUT" method="POST" enctype="" id="formCreate">
             
             <fieldset>
             <label>Producto:</label><input value="<%= product.nombre%>" class="noCheck" type="text" name="name" placeholder="Nombre del producto">
@@ -27,7 +27,7 @@
             </fieldset>
             
             <fieldset>
-            <label>Precio:</label><input value= "<%= product.precioLista %> "class="noCheck" type="number" name="price" placeholder="Precio">
+            <label>Precio:</label><input value="<%= product.precioLista %> "   class="noCheck" type="number" name="price" placeholder="Precio">
             </fieldset>
 
             <fieldset>
@@ -69,7 +69,18 @@
         <fieldset>
             <button type="submit" class="buttonForm">Editar</button>
         </fieldset>
+
+       
         </form>
+        
+            <form action="/product/<%= product.id %>?_method=DELETE" method="POST">
+                <button type="submit" class="buttonForm">Eliminar</button>
+    
+            
+        </form>
+
+        
+    
         
        
 
