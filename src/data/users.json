@@ -1,14 +1,28 @@
-[{
-    "id" : 1,
-    "nombre": "Nicolás" ,
-    "apellido":"Acosta",
+[
+  {
+    "id": 1,
+    "nombre": "Nicolás",
+    "apellido": "Acosta",
     "email": "nicolas@celltech.com.ar",
     "password": "1234",
     "direccion": "SiempreViva 123",
     "localidad": "cordoba",
     "provincia": "cordoba",
     "cp": 5000,
-    "fechaNacimiento": 19870410,
-    "isDmin": true 
-}
+    "nacimiennto": 19870410,
+    "isDmin": true
+  },
+  {
+    "id": 2,
+    "nombre": "John",
+    "apellido": "Snow",
+    "email": "jsnow@invernalia.com",
+    "password": "frio",
+    "direccion": "torre1",
+    "localidad": "invernalia",
+    "provincia": "north",
+    "cp": 6000,
+    "nacimiento": 19870410,
+    "isDmin": false
+  }
 ]

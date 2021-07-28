@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head") %>
+<body id="body">
+    <%- include("../partials/header") %>
+    <main id="content">
+        <section class="contentLogin">
+            <h1 id="pageTitleLogin">listado de usuario</h1>
+            <section>
+            <ul>
+                <% for( let i = 0; i < users.length; i++) { %>
+                    <li>
+                        <%= users[i].nombre %> <%= users[i].apellido%>
+                    </li>
+                <% } %>
+            </ul>
+
+
+            </section>
+            <section>
+                
+        </section>
+        </section>
+    </main>
+    <%- include("../partials/footer") %>
+</body>
+</html>
