@@ -1,28 +1,66 @@
 [
   {
     "id": 1,
-    "nombre": "Nicolás",
-    "apellido": "Acosta",
-    "email": "nicolas@celltech.com.ar",
-    "password": "1234",
-    "direccion": "SiempreViva 123",
-    "localidad": "cordoba",
-    "provincia": "cordoba",
-    "cp": 5000,
-    "nacimiennto": 19870410,
-    "isDmin": true
+    "nombre": "Jaime",
+    "apellido": "Lanister",
+    "email": "jlanister@casterlyrock.com",
+    "password": [
+      "muchooro",
+      "muchooro"
+    ],
+    "direccion": "Torre 5",
+    "localidad": "Roca Casterly",
+    "provincia": "baires",
+    "cp": "1000",
+    "nacimiento": "2021-07-14",
+    "isAdmin": false
   },
   {
     "id": 2,
-    "nombre": "John",
-    "apellido": "Snow",
-    "email": "jsnow@invernalia.com",
-    "password": "frio",
-    "direccion": "torre1",
-    "localidad": "invernalia",
-    "provincia": "north",
-    "cp": 6000,
-    "nacimiento": 19870410,
-    "isDmin": false
+    "nombre": "Jaime",
+    "apellido": "Lanister",
+    "email": "jlanister@casterlyrock.com",
+    "password": [
+      "muchooro",
+      "muchooro"
+    ],
+    "direccion": "Torre 5",
+    "localidad": "Roca Casterly",
+    "provincia": "baires",
+    "cp": "1000",
+    "nacimiento": "2021-07-14",
+    "isAdmin": false
+  },
+  {
+    "id": 3,
+    "nombre": "Jaime",
+    "apellido": "Lanister",
+    "email": "jlanister@casterlyrock.com",
+    "password": [
+      "muchooro",
+      "muchooro"
+    ],
+    "direccion": "Torre 5",
+    "localidad": "Roca Casterly",
+    "provincia": "baires",
+    "cp": "1000",
+    "nacimiento": "2021-07-14",
+    "isAdmin": false
+  },
+  {
+    "id": 4,
+    "nombre": "Jaime4",
+    "apellido": "Lanister",
+    "email": "jlanister@casterlyrock.com",
+    "password": [
+      "muchooro",
+      "muchooro"
+    ],
+    "direccion": "Torre 5",
+    "localidad": "Roca Casterly",
+    "provincia": "baires",
+    "cp": "1000",
+    "nacimiento": "2021-07-14",
+    "isAdmin": false
   }
 ]
