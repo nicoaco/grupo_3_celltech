@@ -6,7 +6,6 @@ const productController= require("../controllers/productController");
 //rutas del sitio
 router.get("/", productController.product);
 router.get("/create", productController.create);
-router.put("/edit",productController.update);
 router.get ("/:id", productController.detail);
 router.get("/:id/edit", productController.edit);
 router.post("/create",productController.store);
