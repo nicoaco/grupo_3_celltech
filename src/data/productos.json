@@ -1,129 +1,45 @@
 [
-    {
-        "id" : 1,
-        "nombre": "Galaxy Note 10+" ,
-        "marca":"samsung",
-        "os": "android",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    } ,
-    {
-        "id": 2,
-        "nombre": "Galaxy Z" ,
-        "marca": "samsung",
-        "os": "android",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 3,
-        "nombre": "S20" ,
-        "marca": "samsung",
-        "os": "android",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 4,
-        "nombre": "A32" ,
-        "marca": "samsung",
-        "os": "android",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 5,
-        "nombre": "Iphne XR" ,
-        "marca": "apple",
-        "os": "ios",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 100000,
-        "descuento": 10,
-        "precioFinal": 90000 
-    },
-    {
-        "id": 6,
-        "nombre": "Iphone 11" ,
-        "marca": "apple",
-        "os": "ios",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 7,
-        "nombre": "Iphone 12" ,
-        "marca": "apple",
-        "os": "ios",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 8,
-        "nombre": "Iphone 12 Pro" ,
-        "marca": "apple",
-        "os": "ios",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 9,
-        "nombre": "10T Pro" ,
-        "marca": "Xiaomi",
-        "os": "Android",
-        "core": 8,
-        "memory": 2,
-        "mpx": 12,
-        "descrip": "descripcion Smartphone",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    },
-    {
-        "id": 10,
-        "nombre": "Black Shark 3" ,
-        "marca": "Xiaomi",
-        "os": "Android",
-        "precioLista": 75000,
-        "descuento": 10,
-        "precioFinal": 67500 
-    }
-
+  {
+    "id": 9,
+    "nombre": "10T Pro",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "core": 8,
+    "memory": 2,
+    "mpx": 12,
+    "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 10,
+    "nombre": "Black Shark 3",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 11,
+    "memory": "",
+    "descrip": " ",
+    "descuento": null,
+    "precioFinal": null
+  },
+  {
+    "id": 12,
+    "memory": "",
+    "descrip": " ",
+    "descuento": null,
+    "precioFinal": null
+  },
+  {
+    "id": 13,
+    "memory": "10",
+    "descrip": " ",
+    "descuento": null,
+    "precioFinal": null
+  }
 ]

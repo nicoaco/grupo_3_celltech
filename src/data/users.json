@@ -24,5 +24,21 @@
     "cp": 6000,
     "nacimiento": 19870410,
     "isDmin": false
+  },
+  {
+    "id": 3,
+    "nombre": "prueba",
+    "apellido": "prueba",
+    "email": "prueba@mail.com",
+    "password": [
+      "lalalal",
+      "lalalala"
+    ],
+    "direccion": "clsad",
+    "localidad": "fdfs",
+    "provincia": "lapampa",
+    "cp": "22",
+    "nacimiento": "",
+    "isAdmin": false
   }
 ]

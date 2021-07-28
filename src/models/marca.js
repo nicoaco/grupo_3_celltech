@@ -8,7 +8,7 @@ module.exports = {
             const file = fs.readFileSync(this.ruta);
             return JSON.parse(file);
         },
-        one : function(id) {
+        buscar : function(id) {
             return this.todos().find(element => element.id == id);
         } 
     

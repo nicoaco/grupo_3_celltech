@@ -16,7 +16,7 @@
 
      <main id="content">
         <h1>Editar producto </h1>
-        <form action="/product/<%= product.id %>?_method=PUT" method="POST" enctype="" id="formCreate">
+        <form action="/product/<%=product.id%>?_method=PUT" method="POST" enctype="" id="formCreate">
             
             <fieldset>
             <label>Producto:</label><input value="<%= product.nombre%>" class="noCheck" type="text" name="name" placeholder="Nombre del producto">
