@@ -13,31 +13,11 @@
   },
   {
     "id": 2,
-    "nombre": "Jaime",
+    "nombre": "Tyrion",
     "apellido": "Lanister",
     "email": "jlanister@casterlyrock.com",
-    "password": [
-      "muchooro",
-      "muchooro"
-    ],
-    "direccion": "Torre 5",
-    "localidad": "Roca Casterly",
-    "provincia": "baires",
-    "cp": "1000",
-    "nacimiento": "2021-07-14",
-    "isAdmin": false
-  },
-  {
-    "id": 3,
-    "nombre": "Jaime",
-    "apellido": "Lanister",
-    "email": "jlanister@casterlyrock.com",
-    "password": [
-      "muchooro",
-      "muchooro"
-    ],
-    "direccion": "Torre 5",
-    "localidad": "Roca Casterly",
+    "direccion": "Torre",
+    "localidad": "Roca",
     "provincia": "baires",
     "cp": "1000",
     "nacimiento": "2021-07-14",
@@ -73,6 +53,38 @@
     "provincia": "cordoba",
     "cp": "5008",
     "nacimiento": "1989-05-20",
+    "isAdmin": false
+  },
+  {
+    "id": 6,
+    "nombre": "Paul",
+    "apellido": "Paul",
+    "email": "paul@paul.com",
+    "password": [
+      "1234",
+      "1234"
+    ],
+    "direccion": "calle 6",
+    "localidad": "bs as",
+    "provincia": "baires",
+    "cp": "1000",
+    "nacimiento": "2021-07-14",
+    "isAdmin": false
+  },
+  {
+    "id": 7,
+    "nombre": "Tincho",
+    "apellido": "Baudino",
+    "email": "jij@kdjkd.com",
+    "password": [
+      "www",
+      "www"
+    ],
+    "direccion": "www4",
+    "localidad": "fdfgdfd",
+    "provincia": "baires",
+    "cp": "345",
+    "nacimiento": "2021-07-21",
     "isAdmin": false
   }
 ]

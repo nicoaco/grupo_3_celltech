@@ -63,7 +63,7 @@ module.exports = {
         let all= this.todos();
         let deleted = this.buscar("id", id);
         all= all.filter(element => element.id != deleted.id);
-        console.log(deleted)
+        //console.log(deleted)
         fs.writeFileSync(this.ruta,JSON.stringify(all,null,2));
         return true;
 

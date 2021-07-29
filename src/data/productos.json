@@ -1,6 +1,6 @@
 [
   {
-    "id": 9,
+    "id": 2,
     "nombre": "10T Pro",
     "marca": "Xiaomi",
     "os": "Android",
@@ -8,6 +8,85 @@
     "memory": 2,
     "mpx": 12,
     "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 3,
+    "nombre": "10T Pro",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "core": 8,
+    "memory": 2,
+    "mpx": 12,
+    "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 4,
+    "nombre": "10T Pro",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "core": 8,
+    "memory": 2,
+    "mpx": 12,
+    "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 5,
+    "nombre": "10T Pro",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "core": 8,
+    "memory": 2,
+    "mpx": 12,
+    "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 6,
+    "nombre": "10T Pro",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "core": 8,
+    "memory": 2,
+    "mpx": 12,
+    "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 7,
+    "nombre": "Black Shark 3",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 8,
+    "nombre": "Black Shark 3",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
+    "id": 9,
+    "nombre": "Black Shark 3",
+    "marca": "Xiaomi",
+    "os": "Android",
     "precioLista": 75000,
     "descuento": 10,
     "precioFinal": 67500
@@ -23,46 +102,13 @@
   },
   {
     "id": 11,
-    "memory": "",
-    "descrip": " ",
-    "descuento": null,
-    "precioFinal": null
-  },
-  {
-    "id": 12,
-    "memory": "",
-    "descrip": " ",
-    "descuento": null,
-    "precioFinal": null
-  },
-  {
-    "id": 13,
-    "memory": "10",
-    "descrip": " ",
-    "descuento": null,
-    "precioFinal": null
-  },
-  {
-    "id": 14,
-    "nombre": "hola",
-    "marca": [
-      "prueba",
-      "2"
-    ],
-    "memory": "2",
-    "descrip": " prueba",
-    "descuento": null,
-    "precioFinal": null
-  },
-  {
-    "id": 15,
-    "nombre": "nombre",
-    "marca": [
-      "marca",
-      "2"
-    ],
-    "memory": "2",
-    "descrip": "prueba ",
+    "nombre": "CELU TEST",
+    "marca": "Apple",
+    "so": "ios",
+    "core": "4",
+    "memory": "56",
+    "mpx": "12",
+    "descrip": " wew",
     "descuento": null,
     "precioFinal": null
   }
