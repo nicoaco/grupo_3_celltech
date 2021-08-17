@@ -24,20 +24,22 @@ module.exports = {
         all = all.map(element => {
             if(element.id == id)
             {
-        
-        element.nombre= data.nombre ,
-        element.marca= data.marca,
-        element.os= data.os,
+        element.nombre= data.name ,
+        element.marca= data.brand,
+        element.os= data.so,
         element.core= data.core,
         element.memory= data.memory,
         element.mpx= data.mpx,
         element.descrip= data.description,
-       element. precioLista= data.precio
+        element.precioLista= data.price,
+        element.descuento= data.discount,
+        element.precioFinal= data.finalPrice
          }
          return element
     })
 
-      return  fs.writeFileSync(this.ruta,JSON.stringify(all,null,2))
+      fs.writeFileSync(this.ruta,JSON.stringify(all,null,2))
+      return all;
        
     },
     create: function(data)
@@ -47,15 +49,14 @@ module.exports = {
         id : all.length>0 ? all[all.length -1].id +1 : 1,
         nombre:data.name ,
         marca:data.brand,
-        so: data.so,
+        os: data.so,
         core: data.core,
         memory: data.memory,
         mpx: data.mpx,
         descrip: data.description,
-        precioLista: data.precio,
-        descuento: null,
-        precioFinal: null, 
-
+        precioLista: data.price,
+        descuento: data.discount,
+        precioFinal: data.finalPrice, 
         })
         all.push(newProduct)
         fs.writeFileSync(this.ruta,JSON.stringify(all,null,2))
@@ -64,12 +65,10 @@ module.exports = {
     },
     delete: function(id){
         let all= this.todos();
-        let deleted = this.buscar(id);
-        all= all.filter(element => element.id != deleted.id)
+        let deleted = this.buscar("id" , id);
+        all= all.filter(element => element.id != deleted.id);
         fs.writeFileSync(this.ruta,JSON.stringify(all,null,2))
         return true;
-
-
     }
 }
 

@@ -16,7 +16,7 @@
 
      <main id="content">
         <h1>Editar producto </h1>
-        <form action="/product/<%=product.id%>?_method=PUT" method="POST" enctype="" id="formCreate">
+        <form action="/product/<%=product.id%>/edit?_method=PUT" method="POST" enctype="" id="formCreate">
             
             <fieldset>
             <label>Producto:</label><input value="<%= product.nombre%>" class="noCheck" type="text" name="name" placeholder="Nombre del producto">
@@ -27,7 +27,13 @@
             </fieldset>
             
             <fieldset>
-            <label>Precio:</label><input value="<%= product.precioLista %> "   class="noCheck" type="number" name="price" placeholder="Precio">
+            <label>Precio:</label><input value="<%= product.precioLista %> "   class="noCheck" type="number" name="price" placeholder="<%= product.precioLista %>">
+            </fieldset>
+            <fieldset>
+                <label>Descuento:</label><input value="<%= product.descuento %> "   class="noCheck" type="number" name="discount" placeholder="<%= product.descuento %>%">
+            </fieldset>
+            <fieldset>
+                <label>Precio Final:</label><input value="<%= product.precioFinal %> "   class="noCheck" type="number" name="finalPrice" placeholder="<%= product.precioFinal %>">
             </fieldset>
 
             <fieldset>
@@ -48,16 +54,16 @@
              </fieldset>
            
             <fieldset>
-            <label class="noCheck">Procesadores:</label><input value="<%= product.core %> "  class="noCheck" type="number" name="processor" placeholder="Nucleos">
+            <label class="noCheck">Procesadores:</label><input value="<%= product.core %> "  class="noCheck" type="number" name="core" placeholder="<%= product.core %>">
              </fieldset>
             
         <fieldset>
-                <label class="noCheck">Memoria RAM:</label><input value="<%= product.memory %> "  class="noCheck" type="number" name="memory" placeholder="Gigabytes">
+                <label class="noCheck">Memoria RAM:</label><input value="<%= product.memory %> "  class="noCheck" type="number" name="memory" placeholder="<%= product.memory %>">
             
                 </fieldset>
 
              <fieldset>  
-            <label>Camara:</label><input value="<%= product.mpx %> " class="noCheck" type="number" name="brand" placeholder="Megapixeles">
+            <label>Camara:</label><input value="<%= product.mpx %> " class="noCheck" type="number" name="mpx" placeholder="<%= product.mpx %>">
               </fieldset>    
 
               <fieldset>
@@ -73,8 +79,8 @@
        
         </form>
         
-            <form action="/product/<%= product.id %>?_method=DELETE" method="POST">
-                <button type="submit" class="buttonForm">Eliminar</button>
+            <form action="/product/<%= product.id %>/delete?_method=DELETE" method="POST">
+                <button type="submit" class="buttonForm">ELIMINAR PRODUCTO</button>
     
             
         </form>

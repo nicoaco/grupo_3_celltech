@@ -10,7 +10,7 @@
             <section>
                 <%= JSON.stringify(user,null,2) %> 
             </section>
-            <form action="/user/<%= user.id%>/edit?_method=PUT " method="POST" class="formCreateUser">
+            <form action="/user/<%= user.id%>/edit?_method=PUT" method="POST" class="formCreateUser">
                 <fieldset class="controlForm">
                     <label>Nombre:</label>
                     <input type="text" name="nombre" value= <%= user.nombre%> class="controlBox"></input>

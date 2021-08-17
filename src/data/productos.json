@@ -1,5 +1,18 @@
 [
   {
+    "id": 1,
+    "nombre": "10T Pro",
+    "marca": "Xiaomi",
+    "os": "Android",
+    "core": 8,
+    "memory": 2,
+    "mpx": 12,
+    "descrip": "descripcion Smartphone",
+    "precioLista": 75000,
+    "descuento": 10,
+    "precioFinal": 67500
+  },
+  {
     "id": 2,
     "nombre": "10T Pro",
     "marca": "Xiaomi",
@@ -75,15 +88,6 @@
   },
   {
     "id": 8,
-    "nombre": "Black Shark 3",
-    "marca": "Xiaomi",
-    "os": "Android",
-    "precioLista": 75000,
-    "descuento": 10,
-    "precioFinal": 67500
-  },
-  {
-    "id": 9,
     "nombre": "Black Shark 3",
     "marca": "Xiaomi",
     "os": "Android",
