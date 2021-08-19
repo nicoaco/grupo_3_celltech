@@ -13,78 +13,53 @@
   },
   {
     "id": 2,
-    "nombre": "Tyrion",
-    "apellido": "Lanister",
-    "email": "jlanister@casterlyrock.com",
-    "direccion": "Torre",
-    "localidad": "Roca",
+    "nombre": "Martin",
+    "apellido": "Baudino",
+    "email": "mbaudi@celtech.com",
+    "password": [
+      "1234",
+      "1234"
+    ],
+    "direccion": "calle linda 321",
+    "localidad": "buenos aires",
+    "provincia": "caba",
+    "cp": "",
+    "nacimiento": "2021-08-02",
+    "image": "imguser-1629335343988.jpg",
+    "isAdmin": false
+  },
+  {
+    "id": 3,
+    "nombre": "Paulo",
+    "apellido": "Di Monte",
+    "email": "pdimonte@celltech.com",
+    "password": [
+      "pdmonte1234",
+      "pdmonte1234"
+    ],
+    "direccion": "calle publica 876",
+    "localidad": "Pilar",
     "provincia": "baires",
-    "cp": "1000",
-    "nacimiento": "2021-07-14",
+    "cp": "2541",
+    "nacimiento": "2021-07-08",
+    "image": "imguser-1629335418175.jpg",
     "isAdmin": false
   },
   {
     "id": 4,
-    "nombre": "Jaime4",
-    "apellido": "Lanister",
-    "email": "jlanister@casterlyrock.com",
+    "nombre": "Bart",
+    "apellido": "Simpson",
+    "email": "bs@simpson.com",
     "password": [
-      "muchooro",
-      "muchooro"
+      "barto",
+      "barto"
     ],
-    "direccion": "Torre 5",
-    "localidad": "Roca Casterly",
-    "provincia": "baires",
-    "cp": "1000",
-    "nacimiento": "2021-07-14",
-    "isAdmin": false
-  },
-  {
-    "id": 5,
-    "nombre": "Gabi",
-    "apellido": "Cufre",
-    "email": "gcufre@cosas.com",
-    "password": [
-      "1234",
-      "1234"
-    ],
-    "direccion": "Laroro 7845",
-    "localidad": "Huidobro",
-    "provincia": "cordoba",
-    "cp": "5008",
-    "nacimiento": "1989-05-20",
-    "isAdmin": false
-  },
-  {
-    "id": 6,
-    "nombre": "Paul",
-    "apellido": "Paul",
-    "email": "paul@paul.com",
-    "password": [
-      "1234",
-      "1234"
-    ],
-    "direccion": "calle 6",
-    "localidad": "bs as",
-    "provincia": "baires",
-    "cp": "1000",
-    "nacimiento": "2021-07-14",
-    "isAdmin": false
-  },
-  {
-    "id": 7,
-    "nombre": "Tincho",
-    "apellido": "Baudino",
-    "email": "jij@kdjkd.com",
-    "password": [
-      "www",
-      "www"
-    ],
-    "direccion": "www4",
-    "localidad": "fdfgdfd",
-    "provincia": "baires",
-    "cp": "345",
-    "nacimiento": "2021-07-21",
+    "direccion": "Av Siempre Viva 564",
+    "localidad": "Springfield",
+    "provincia": "corrientes",
+    "cp": "4578",
+    "nacimiento": "2021-04-14",
+    "image": "imguser-1629335476838.jpg",
     "isAdmin": false
   }
 ]

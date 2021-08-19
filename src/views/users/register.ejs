@@ -24,7 +24,7 @@ rel="stylesheet" />
         <!--Formulario de Registro-->
         <section class="contentRegister">
             <h1 id="pageTitleRegister">Registrate en CELLTECH</h1>
-            <form action="/user/save" method="POST" class="formCreateUser">
+            <form action="/user/save" method="POST" class="formCreateUser" enctype="multipart/form-data">
                 <div class="controlForm">
                     <label>Nombre:</label>
                     <input type="text" name="nombre" placeholder="ingresá tu nombre" class="controlBox"></input>
@@ -90,6 +90,10 @@ rel="stylesheet" />
                     <label>Fecha de nacimiento:</label>
                     <input type="date" name="nacimiento" class="controlBox"></input>
                 </div>
+                <fieldset class="controlForm">
+                    <label for="imguser"> Imagen de Perfil:</label><input  class="controlBox" type="file" name="imguser">
+                </fieldset>
+
                 <div class="controlForm">
                     <button type="submit" class="buttonForm">Registrate</button>
                 </div>

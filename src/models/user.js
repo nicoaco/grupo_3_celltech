@@ -17,7 +17,7 @@ module.exports = {
     filtrar : function(atributo, valor) {
         return this.todos().filter(producto => producto[atributo] == valor); // filter devuelve [] si no encuentra nada.
     },
-    create: function(data) {
+    create: function(data,file) {
         let all = this.todos();
         let newUser = {
             id : all.length > 0 ? all[all.length - 1].id + 1 : 1,
@@ -30,6 +30,7 @@ module.exports = {
             provincia : data.provincia,
             cp : data.cp,
             nacimiento : data.nacimiento,
+            image : file.filename,
             isAdmin : false
         } ;
         all.push(newUser);

@@ -10,12 +10,12 @@
             <ul>
                 <% for( let i = 0; i < users.length; i++) { %>
                     <li>
-                    </br>
-                        <%= users[i].nombre %> <%= users[i].apellido%>
-                    <form method="GET" action="/user/<%= users[i].id %>/edit ">
-                    <button type="submit">Editar</button>
-                    </form>    
-                    </br> 
+                        </br>
+                            <%= users[i].nombre %> <%= users[i].apellido%>
+                        <form method="GET" action="/user/<%= users[i].id %>/edit ">
+                        <button type="submit">Editar</button>
+                        </form>    
+                        </br> 
                     </li>
                 <% } %>
             </ul>
