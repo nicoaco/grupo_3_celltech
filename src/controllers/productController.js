@@ -9,7 +9,7 @@ const productController = {
     create:(req,res) => res.render("./products/create",{estilo:"create.css", titulo:"Celltech - Create"}),
     edit:(req,res) => res.render("./products/update",{marca: marcaModelo.buscar(req.params.id), product:productoModelo.buscar("id",req.params.id),estilo:"edit.css", titulo:"Celltech - Edit"}),
     
-    store: (req,res) => res.render("./products/create",{producto: productoModelo.create(req.body), estilo:"create.css", titulo:"Celltech - Crear Producto"}),
+    store: (req,res) => res.render("./products/create",{producto: productoModelo.create(req.body, req.file), estilo:"create.css", titulo:"Celltech - Crear Producto"}),
     update: (req,res) => {
         let updated = productoModelo.update(req.body, req.params.id);
         return updated ? res.redirect("/product") : res.status(500).send("Error en la actualización");

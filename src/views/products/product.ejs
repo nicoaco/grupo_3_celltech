@@ -8,7 +8,7 @@
         <section class = "section-content">
             <% for( let i = 0; i < moviles.length; i++ ) { %>
                 <article class="article-setting">
-                    <figure><img src="/img/smartphone<%= moviles[i].id %>.jpg" alt="smartphone<%= moviles[i].id %>"></figure> 
+                    <figure><img src= "/uploads/products/<%= moviles[i].image %>" alt="smartphone<%= moviles[i].id %>"></figure> 
                     <section class="contenedor1">
                         <section class="precio-descuento">                    
                             <p class="precio-lista">$<%= moviles[i].precioLista %> </p>

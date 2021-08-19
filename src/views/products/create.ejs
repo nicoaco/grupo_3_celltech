@@ -16,7 +16,7 @@
 
      <main id="content">
         <h1>Cargar producto</h1>
-        <form action="/product/create" method="POST" id="formCreate">
+        <form action="/product/create" method="POST" enctype="multipart/form-data" id="formCreate">
             
             <fieldset>
             <label>Producto:</label><input class="noCheck" type="text" name="name" placeholder="Nombre del producto">
@@ -37,7 +37,7 @@
             </fieldset>
 
             <fieldset>
-           <label> Imagenes:</label><input  class="noCheck" type="file" name="img" placeholder="Precio">
+           <label for="img"> Imagenes:</label><input  class="noCheck" type="file" name="img" placeholder="Precio">
             </fieldset>
 
             <fieldset>

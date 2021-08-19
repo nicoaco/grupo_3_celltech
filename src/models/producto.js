@@ -42,7 +42,7 @@ module.exports = {
       return all;
        
     },
-    create: function(data)
+    create: function(data , file)
     {
         let all = this.todos();
         let newProduct=({
@@ -56,7 +56,8 @@ module.exports = {
         descrip: data.description,
         precioLista: data.price,
         descuento: data.discount,
-        precioFinal: data.finalPrice, 
+        precioFinal: data.finalPrice,
+        image : file.filename 
         })
         all.push(newProduct)
         fs.writeFileSync(this.ruta,JSON.stringify(all,null,2))
