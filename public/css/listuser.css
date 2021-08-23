@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    }
+
+
+#main-register{
+        width: 100%;
+        margin-top: 30vh;
+        padding: 5vw;
+    }
+
+.contentRegister {
+    background-color: #FAFAFA;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
+}
+
+#pageTitleRegister {
+    padding: 10px 10px;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+
+}
+
+.imageuser {
+    margin:0;
+    border:0;
+    width: 100px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s;
+}
+
+.formCreateUser {
+    padding: 15px 15px;
+}
+
+.controlForm {
+    margin: 5px;
+    display:block;
+}
+.controlBox {
+    width: 100%;
+    padding: 8px 8px;
+    border:gray;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+.buttonForm{
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.buttonForm:hover {
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
+    transform: scale(1.05);
+}
+
+.content-login h2 {
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+.controlLogin{
+    padding: 10px 10px;
+    text-align: center;
+}
+.buttonLogin{
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.buttonLogin:hover {
+    box-shadow: 1px 2px 12px 4px rgba(79,255,0,0.3);
+    transform: scale(1.05);
+}
+
+@media (min-width:481px){
+    #main-register{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20vh;
+    }
+    .contentRegister {
+        width: 70%;
+    }
+    .content-login{
+        width: 30%;
+    }
+}
+@media (min-width:769px){
+    .contentRegister {
+        max-width: 600px;
+    }
+}

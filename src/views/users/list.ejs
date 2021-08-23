@@ -3,19 +3,25 @@
 <%- include("../partials/head") %>
 <body id="body">
     <%- include("../partials/header") %>
-    <main id="content">
-        <section class="contentLogin">
-            <h1 id="pageTitleLogin">listado de usuario</h1>
+    <main id="main-register">
+        <section class="contentRegister">
+            <h1 id="pageTitleRegister">Listado de usuarios</h1>
             <section>
             <ul>
                 <% for( let i = 0; i < users.length; i++) { %>
-                    <li>
-                        </br>
-                            <%= users[i].nombre %> <%= users[i].apellido%>
-                        <form method="GET" action="/user/<%= users[i].id %>/edit ">
-                        <button type="submit">Editar</button>
-                        </form>    
-                        </br> 
+                    <li>           
+                        <article class="controlBox">
+                            <figure><img src= "/uploads/users/<%= users[i].image %>" alt="user<%= users[i].id %>" class="imageuser"></figure> 
+                            <section>
+                                <h2><%= users[i].nombre %> <%= users[i].apellido%> </h2>
+                            <form method="GET" action="/user/<%= users[i].id %>/edit " class="formCreateUser">
+                            <button type="submit" class="buttonLogin">Editar</button>
+                            </form>
+                            </section>
+                        </article>
+
+
+
                     </li>
                 <% } %>
             </ul>

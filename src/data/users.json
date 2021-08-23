@@ -1,29 +1,13 @@
 [
   {
-    "id": 1,
-    "nombre": "Nicolas",
-    "apellido": "Acosta",
-    "email": "nicoaco@celltech.com",
-    "direccion": "Siempre Viva",
-    "localidad": "Cordoba",
-    "provincia": "cordoba",
-    "cp": "1000",
-    "nacimiento": "2021-07-14",
-    "isAdmin": false
-  },
-  {
     "id": 2,
     "nombre": "Martin",
     "apellido": "Baudino",
     "email": "mbaudi@celtech.com",
-    "password": [
-      "1234",
-      "1234"
-    ],
-    "direccion": "calle linda 321",
-    "localidad": "buenos aires",
-    "provincia": "caba",
-    "cp": "",
+    "direccion": "calle",
+    "localidad": "buenos",
+    "provincia": "baires",
+    "cp": "1000",
     "nacimiento": "2021-08-02",
     "image": "imguser-1629335343988.jpg",
     "isAdmin": false
@@ -60,6 +44,19 @@
     "cp": "4578",
     "nacimiento": "2021-04-14",
     "image": "imguser-1629335476838.jpg",
+    "isAdmin": false
+  },
+  {
+    "id": 5,
+    "nombre": "Nicolás",
+    "apellido": "Acosta",
+    "email": "nacosta@celltech.com",
+    "direccion": "av",
+    "localidad": "cordoba",
+    "provincia": "cordoba",
+    "cp": "5000",
+    "nacimiento": "1987-08-10",
+    "image": "imguser-1629752235932.jpg",
     "isAdmin": false
   }
 ]
