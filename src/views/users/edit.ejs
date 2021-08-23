@@ -11,7 +11,7 @@
             <section>
                 <%= JSON.stringify(user,null,2) %> 
             </section>
-            <form action="/user/<%= user.id%>/edit?_method=PUT" method="POST" class="formCreateUser">
+            <form action="/user/<%= user.id%>/edit?_method=PUT" method="POST" enctype="multipart/form-data" class="formCreateUser">
                 <fieldset class="controlForm">
                     <label>Nombre:</label>
                     <input type="text" name="nombre" value= <%= user.nombre%> class="controlBox"></input>
@@ -68,6 +68,9 @@
                 <fieldset class="controlForm">
                     <label>Fecha de nacimiento:</label>
                     <input type="date" name="nacimiento" value= <%= user.nacimiento%> class="controlBox"></input>
+                </fieldset>
+                <fieldset class="controlForm">
+                    <label for="imguser"> Imagen de Perfil:</label><input class="controlBox" type="file" name="imguser">
                 </fieldset>
                 <fieldset class="controlForm">
                     <button type="submit" class="buttonForm">Actualizar Usuario</button>

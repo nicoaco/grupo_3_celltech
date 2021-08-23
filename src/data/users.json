@@ -1,18 +1,5 @@
 [
   {
-    "id": 2,
-    "nombre": "Martin",
-    "apellido": "Baudino",
-    "email": "mbaudi@celtech.com",
-    "direccion": "calle",
-    "localidad": "buenos",
-    "provincia": "baires",
-    "cp": "1000",
-    "nacimiento": "2021-08-02",
-    "image": "imguser-1629335343988.jpg",
-    "isAdmin": false
-  },
-  {
     "id": 3,
     "nombre": "Paulo",
     "apellido": "Di Monte",
@@ -34,29 +21,51 @@
     "nombre": "Bart",
     "apellido": "Simpson",
     "email": "bs@simpson.com",
-    "password": [
-      "barto",
-      "barto"
-    ],
-    "direccion": "Av Siempre Viva 564",
+    "direccion": "Av",
     "localidad": "Springfield",
-    "provincia": "corrientes",
+    "provincia": "baires",
     "cp": "4578",
     "nacimiento": "2021-04-14",
-    "image": "imguser-1629335476838.jpg",
+    "image": "imguser-1629754238123.jpg",
     "isAdmin": false
   },
   {
     "id": 5,
-    "nombre": "Nicolás",
-    "apellido": "Acosta",
-    "email": "nacosta@celltech.com",
+    "nombre": "Peter",
+    "apellido": "Parker",
+    "email": "pparker@celltech.com",
     "direccion": "av",
     "localidad": "cordoba",
-    "provincia": "cordoba",
+    "provincia": "baires",
     "cp": "5000",
     "nacimiento": "1987-08-10",
-    "image": "imguser-1629752235932.jpg",
+    "image": "imguser-1629754324406.jpg",
+    "isAdmin": false
+  },
+  {
+    "id": 6,
+    "nombre": "Thor",
+    "apellido": "Baudino",
+    "email": "tbaudino@celltech.com",
+    "direccion": "Av",
+    "localidad": "Pilar",
+    "provincia": "baires",
+    "cp": "1200",
+    "nacimiento": "2021-08-05",
+    "image": "imguser-1629754278987.jpg",
+    "isAdmin": false
+  },
+  {
+    "id": 7,
+    "nombre": "Darth",
+    "apellido": "Vader",
+    "email": "dvader@imperio.com",
+    "direccion": "Planeta",
+    "localidad": "Galaxia",
+    "provincia": "baires",
+    "cp": "5000",
+    "nacimiento": "2021-08-09",
+    "image": "imguser-1629754130492.jpg",
     "isAdmin": false
   }
 ]

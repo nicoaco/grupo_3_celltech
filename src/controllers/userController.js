@@ -10,7 +10,7 @@ const userController = {
     save: (req,res) => res.render("./users/login",{ user : userModelo.create(req.body , req.file), estilo:"register.css", titulo:"Celltech - Registracion"}),
     edit: (req,res) => res.render("./users/edit",{ user: userModelo.buscar("id", req.params.id) ,estilo:"register.css", titulo:"Celltech - Registracion"}),
     update: (req,res) => {
-        let updated = userModelo.update(req.body, req.params.id);
+        let updated = userModelo.update(req.body, req.file, req.params.id);
         return updated ? res.redirect("/user/list") : res.status(500).send("Error en la actualización");
     },
 

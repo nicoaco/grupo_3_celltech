@@ -39,9 +39,10 @@ module.exports = {
        return newUser;
     },
 
-    update: function(data, id) {
+    update: function(data, file, id) {
         let all = this.todos();
         let updated = this.buscar ("id", id);
+        fs.unlinkSync(path.resolve(__dirname,"../../public/uploads/users",updated.image))
         all = all.map(element => {
             if (element.id == id) {
                 element.nombre = data.nombre,
@@ -53,6 +54,7 @@ module.exports = {
                 element.provincia = data.provincia,
                 element.cp = data.cp,
                 element.nacimiento = data.nacimiento,
+                element.image = file.filename,
                 element.isAdmin = false
             }
             return element
@@ -63,6 +65,7 @@ module.exports = {
     delete: function(id){
         let all= this.todos();
         let deleted = this.buscar("id", id);
+        fs.unlinkSync(path.resolve(__dirname,"../../public/uploads/users",deleted.image))
         all= all.filter(element => element.id != deleted.id);
         //console.log(deleted)
         fs.writeFileSync(this.ruta,JSON.stringify(all,null,2));
