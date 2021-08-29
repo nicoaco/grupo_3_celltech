@@ -42,7 +42,10 @@ module.exports = {
     update: function(data, file, id) {
         let all = this.todos();
         let updated = this.buscar ("id", id);
-        fs.unlinkSync(path.resolve(__dirname,"../../public/uploads/users",updated.image))
+        if(updated.image != "defaultperfil.jpg" & updated.image != file.filename){
+            fs.unlinkSync(path.resolve(__dirname,"../../public/uploads/users",updated.image))    
+        }
+        
         all = all.map(element => {
             if (element.id == id) {
                 element.nombre = data.nombre,

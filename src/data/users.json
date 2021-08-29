@@ -2,18 +2,14 @@
   {
     "id": 3,
     "nombre": "Paulo",
-    "apellido": "Di Monte",
+    "apellido": "Di",
     "email": "pdimonte@celltech.com",
-    "password": [
-      "pdmonte1234",
-      "pdmonte1234"
-    ],
-    "direccion": "calle publica 876",
+    "direccion": "calle",
     "localidad": "Pilar",
     "provincia": "baires",
     "cp": "2541",
     "nacimiento": "2021-07-08",
-    "image": "imguser-1629335418175.jpg",
+    "image": "imguser-1629767998054.jpg",
     "isAdmin": false
   },
   {
@@ -52,7 +48,7 @@
     "provincia": "baires",
     "cp": "1200",
     "nacimiento": "2021-08-05",
-    "image": "imguser-1629754278987.jpg",
+    "image": "defaultperfil.jpg",
     "isAdmin": false
   },
   {
@@ -66,6 +62,36 @@
     "cp": "5000",
     "nacimiento": "2021-08-09",
     "image": "imguser-1629754130492.jpg",
+    "isAdmin": false
+  },
+  {
+    "id": 8,
+    "nombre": "Bruce",
+    "apellido": "Banner",
+    "email": "hulk@gmail.com",
+    "password": [
+      "teleste",
+      "teleste"
+    ],
+    "direccion": "Santa Fe 43",
+    "localidad": "Salvador",
+    "provincia": "Jujuy",
+    "cp": "3542",
+    "nacimiento": "2021-08-03",
+    "image": "imguser-1629765983026.jpg",
+    "isAdmin": false
+  },
+  {
+    "id": 10,
+    "nombre": "Usuario",
+    "apellido": "ConImagen",
+    "email": "conimg@test.com",
+    "direccion": "Gral",
+    "localidad": "Villa",
+    "provincia": "baires",
+    "cp": "5001",
+    "nacimiento": "2021-08-09",
+    "image": "imguser-1630272198949.jpg",
     "isAdmin": false
   }
 ]
