@@ -3,6 +3,7 @@ const router=express.Router();
 const multer = require('multer');
 const userController= require("../controllers/userController");
 const path = require('path');
+const validLogin = require('../middlewares/validLogin');
 
 let dest = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -19,7 +20,7 @@ const upload = multer({storage:dest});
 
 //rutas User del sitio
 router.get("/login", userController.login);
-router.post("/login", userController.login)
+router.post("/login",[validLogin], userController.access);
 router.get ("/list", userController.list);
 
 router.get("/register", userController.register);

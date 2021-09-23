@@ -7,6 +7,7 @@ const userController = {
     login:(req,res)=>res.render("./users/login",{estilo:"login.css", titulo:"Celltech - Login"}),
     register:(req,res) => res.render("./users/register",{estilo:"register.css", titulo:"Celltech - Registracion"}),
     list: (req,res) => res.render("./users/list",{ users : userModelo.todos() ,estilo:"listuser.css", titulo:"Celltech - Listado de Usuarios"}),
+    access : (req,res) => res.render("./users/login",{estilo:"login.css", titulo:"Celltech - Login"}),
     save: (req,res) => {
         if(req.file){
             res.render("./users/login",{ user : userModelo.create(req.body , req.file), estilo:"register.css", titulo:"Celltech - Registracion"})

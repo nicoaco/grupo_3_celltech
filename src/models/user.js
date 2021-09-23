@@ -14,6 +14,9 @@ module.exports = {
     buscar : function(atributo,valor) {
         return this.todos().find(usuario => usuario[atributo] == valor); // find devuelve null si no encuentra nada.
     },
+    buscarPorEmail : function(email) {
+        return this.todos().find(user => user.email == email)
+    },
     filtrar : function(atributo, valor) {
         return this.todos().filter(producto => producto[atributo] == valor); // filter devuelve [] si no encuentra nada.
     },
